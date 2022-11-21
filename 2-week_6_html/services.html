@@ -1,15 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Theme Park | Home</title>
 </head>
 
 <body>
+    <!--Header-->
+    <header>
+        <!--Navigation bar-->
+	    <nav>
+            <div> <!--Container-->
+                <!--Left side of the bar-->
+                <div>
+                    <object data = “img/logo.svg”>
+                </div> <!--End left side of the bar-->
+                <!--Right side of the bar-->
+                <div>
+                    <a href="/home.html/">Home</a> 
+                    <a href="/services.html/">Services</a> 
+                    <a href="/aboutpark.html/">About Park</a> 
+                    <button type="PurchaseButton">Buy Now!</button>
+                </div>
+                <!--End right side of the bar-->
+             </div> <!--End container-->
+         </nav>
+        <!--End navigation bar-->
+    </header>
+    <!--End header-->
+    
+    <!--line break-->
+    <br>
 
+    <div> <!--Container-->
+        <!--Form-->
+        <form action="TicketPurchase.php">
+            <!--Fieldset-->
+            <fieldset>
+  	            <h2><center>Tickets</center></h2> <!--Title for ticket purchasing section-->
+                    <!--Table-->
+                    <table>
+                        <tr>
+                            <!--Data cell for name-->
+  	                        <td>
+    	                    <label for="name">Name</label><br>
+  	                        <input type="text" id="name" name="name"><br><br>
+    	                    </td>
+                            <!--End data cell for name-->
+                            
+                            <!--Data cell for date-->
+    	                    <td>
+    	                    <label for="date">Date</label><br>
+  	                        <input type="date" id="date" name="date"><br><br>
+   	                        </td>
+                            <!--End data cell for date-->
+
+    	                    <!--Data cell for ticket number -->
+                            <td>
+    	                    <label for="numberOfTickets">No. of Tickets</label><br>
+  	                        <input type="text" id="numberOfTickets" name="numberOfTickets"><br><br>
+                            </td>
+                            <!--End data cell for ticket number-->
+
+                            <!--Data cell for submit button-->
+    	                    <td>
+    	                    <input type="submit" value="Submit">
+   	                        </td>
+                            <!--End data cell for submit button-->
+                       </tr>
+                    </table>
+                    <!--End table-->
+            </fieldset>
+            <!--End fieldset-->
+        </form>
+        <!--End form-->
+    <div> <!--End container-->
+
+    <!--Line break-->
+    <br>
+        
+    <h1><center>Attractions</center></h1> <!--Title for attractions section-->
+
+    <div> <!--Container--> 
+        <div>
+            <!--Table-->
+            <table>
+                <tr> <!--Row for attraction images-->
+                    <th><img src=”img1.jpg” alt=”Image1” width=”50” height=”30”></th>
+                    <th><img src=”img2.jpg” alt=”Image2” width=”50” height=”30”></th>
+                    <th><img src=”img3.jpg” alt=”Image3” width=”50” height=”30”></th>
+                    <th><img src=”img4.jpg” alt=”Image4” width=”50” height=”30”></th>
+                </tr> <!--End row for attraction images-->
+
+                <tr> <!--Row for attraction names-->
+                    <td>Attraction Name</td>
+                    <td>Attraction Name</td>
+                    <td>Attraction Name</td>
+                    <td>Attraction Name</td>
+                </tr> <!--End row for attraction names-->
+
+                <tr> <!--Row for attraction buttons-->
+                    <td><a href="link">Button</a></td>
+                    <td><a href="link">Button</a></td>
+                    <td><a href="link">Button</a></td>
+                    <td><a href="link">Button</a></td>
+                </tr> <!--End row for attraction buttons-->
+
+                <tr> <!--Row for regulations-->
+                    <td>Regulations</td>
+                    <td>Regulations</td>
+                    <td>Regulations</td>
+                    <td>Regulations</td>
+                </tr> <!--End row for regulations-->
+
+                <tr> <!--Row for regulation specifications-->
+                    <td>XX cm<br>XX kg</td>
+                    <td>XX cm<br>XX kg</td>
+                    <td>XX cm<br>XX kg</td>
+                    <td>XX cm<br>XX kg</td>
+                </tr> <!--End row for regulation specifications-->  
+            </table>
+            <!--End table-->
+        </div>
+        <div>
+            <!--Table-->
+            <table>
+                <tr> <!--Row for attraction images-->
+                    <th><img src=”img1.jpg” alt=”Image1” width=”50” height=”30”></th>
+                    <th><img src=”img2.jpg” alt=”Image2” width=”50” height=”30”></th>
+                    <th><img src=”img3.jpg” alt=”Image3” width=”50” height=”30”></th>
+                    <th><img src=”img4.jpg” alt=”Image4” width=”50” height=”30”></th>
+                </tr> <!--End row for attraction images-->
+                
+                <tr> <!--Row for attraction names-->
+                    <td>Attraction Name</td>
+                    <td>Attraction Name</td>
+                    <td>Attraction Name</td>
+                    <td>Attraction Name</td>
+                </tr> <!--End row for attraction names-->
+                
+                <tr> <!--Row for attraction buttons-->
+                    <td><a href="link">Button</a></td>
+                    <td><a href="link">Button</a></td>
+                    <td><a href="link">Button</a></td>
+                    <td><a href="link">Button</a></td>
+                </tr> <!--End row for attraction buttons-->
+                
+                <tr> <!--Row for regulations-->
+                    <td>Regulations</td>
+                    <td>Regulations</td>
+                    <td>Regulations</td>
+                    <td>Regulations</td>
+                </tr> <!--End row for regulations-->
+                
+                <tr> <!--Row for regulation specifications-->
+                    <td>XX cm<br>XX kg</td>
+                    <td>XX cm<br>XX kg</td>
+                    <td>XX cm<br>XX kg</td>
+                    <td>XX cm<br>XX kg</td>
+                </tr> <!--End row for regulation specifications-->
+            </table>
+            <!--End table-->
+        </div>
+    </div> <!--End container-->
+
+    <!--Line break-->
+    <br>
+    
+    <!--Title for food section-->
+    <h1><center>Food</center></h1>
+
+    <div> <!--Container-->
+        <!--Table-->
+        <table>
+            <tr> <!--Row for food images-->
+                <th><img src=”img1.jpg” alt=”Food1” width=”50” height=”30”></th>
+                <th><img src=”img2.jpg” alt=”Food2” width=”50” height=”30”></th>
+                <th><img src=”img3.jpg” alt=”Food3” width=”50” height=”30”></th>
+                <th><img src=”img4.jpg” alt=”Food4” width=”50” height=”30”></th>
+            </tr><!--End row for food images-->
+            
+            <tr> <!--Row for food names-->
+                <td>Sandwiches</td>
+                <td>Pizza</td>
+                <td>Pasta</td>
+                <td>BBQ</td>
+            </tr> <!--End row for food names-->
+            
+            <tr> <!--Row for food specifications-->
+                <td>Additional text/info goes here</td>
+                <td>Additional text/info goes here</td>
+                <td>Additional text/info goes here</td>
+                <td>Additional text/info goes here</td>
+            </tr> <!--End row for food specifications-->
+        </table>
+        <!--End table-->
+    </div> <!--End container-->
+
+    <!--Line break-->
+    <br>
+        
+    <!--Title for accomodations-->
+    <h2><center>Accomodations</center></h2>
+
+    <div> <!--Container-->
+        <!--Table-->
+        <table>
+            <tr>
+                <!--Cabin information-->
+                <td><img src=”Cabins.jpg” alt=”Cabin Image” width=”100” height=”50”></td>
+                <th><h3>Cabins</h3>
+                <p>Additional text goes here</p>
+                <<button type=”button">Purchase</button> 
+                </th> 
+                <!--End cabin information-->
+            </tr>
+
+            <tr>
+                <!--Luxury information-->
+                <td><img src=”Luxury.jpg” alt=”Luxury Image” width=”100” height=”50”></td>
+                <th><h3>Night Bands</h3>
+                <p>Additional text goes here</p>
+                <<button type=”button">Purchase</button>
+                </th>
+                <!--End luxury information-->
+            </tr>
+        </table>
+        <!--End table-->
+    </div> <!--End container-->
+
+    <!--Line break-->
+    <br>
+    
+    <!--Footer-->
+    <footer id="footer">
+        <!--Container-->
+        <div>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">About Park</a>
+            </div>
+            
+            <div>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+            </div>
+
+            <!--Newsletter Form-->
+            <div>
+                <!--Form-->
+                <form>
+                    <label for="input-email">Sign up to get the latest offers</label>
+                    <input type="email" name="email" id="input-email" placeholder="example@website.com">
+                </form>
+                <!--End form-->
+            </div>
+            <!--End Newsletter Form-->
+        </div>
+        <!--End container-->
+    </footer>
+    <!--End Footer-->
+    
 </body>
+<!--End body-->
 
 </html>
+<!--End HTML-->
