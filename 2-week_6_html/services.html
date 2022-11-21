@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <!--Header-->
     <!-- Navbar  -->
     <nav>
         <!-- Container -->
@@ -38,252 +37,448 @@
     <hr />
     <br />
 
-
-    <div>
-        <!--Container-->
-        <!--Form-->
-        <form action="TicketPurchase.php">
-            <!--Fieldset-->
-            <fieldset>
-                <h2>
-                    <center>Tickets</center>
-                </h2>
+    <main>
+        <!-- Container Div -->
+        <div id="services-tickets">
+            <!-- Ticket Form div-->
+            <div>
                 <!--Title for ticket purchasing section-->
-                <!--Table-->
-                <table>
-                    <tr>
-                        <!--Data cell for name-->
-                        <td>
-                            <label for="name">Name</label><br>
-                            <input type="text" id="name" name="name"><br><br>
-                        </td>
-                        <!--End data cell for name-->
+                <h1>
+                    <center>Tickets</center>
+                </h1>
+                <!--Form-->
+                <form>
+                    <!--Fieldset-->
+                    <fieldset>
+                        <!-- Row -->
+                        <div>
+                            <!--Input group for name-->
+                            <div>
+                                <label for="name">Name</label><br>
+                                <input type="text" id="name" name="name"><br><br>
+                            </div>
+                            <!--End Input group for name-->
 
-                        <!--Data cell for date-->
-                        <td>
-                            <label for="date">Date</label><br>
-                            <input type="date" id="date" name="date"><br><br>
-                        </td>
-                        <!--End data cell for date-->
+                            <!--Input group for date-->
+                            <div>
+                                <label for="date">Date</label><br>
+                                <input type="date" id="date" name="date"><br><br>
+                            </div>
+                            <!--End Input group for date-->
 
-                        <!--Data cell for ticket number -->
-                        <td>
-                            <label for="numberOfTickets">No. of Tickets</label><br>
-                            <input type="text" id="numberOfTickets" name="numberOfTickets"><br><br>
-                        </td>
-                        <!--End data cell for ticket number-->
+                            <!--Input group for ticket number -->
+                            <div>
+                                <label for="numberOfTickets">No. of Tickets</label><br>
+                                <input type="text" id="numberOfTickets" name="numberOfTickets"><br><br>
+                            </div>
+                            <!--End Input group for ticket number-->
 
-                        <!--Data cell for submit button-->
-                        <td>
-                            <input type="submit" value="Submit">
-                        </td>
-                        <!--End data cell for submit button-->
-                    </tr>
-                </table>
-                <!--End table-->
-            </fieldset>
-            <!--End fieldset-->
-        </form>
-        <!--End form-->
-    </div>
-    <!--End container-->
+                        </div>
+                        <!-- End Row -->
+                        <!-- Row -->
+                        <div>
+                            <!--Data cell for submit button-->
+                            <button type="submit">Submit</button>
 
-    <!--Line break-->
-    <br>
+                        </div>
+                        <!-- End Row -->
+                    </fieldset>
+                    <!--End fieldset-->
+                </form>
+                <!--End form-->
+            </div>
+            <!-- End Ticket Form div -->
 
-    <h1>
-        <center>Attractions</center>
-    </h1>
-    <!--Title for attractions section-->
 
-    <div>
-        <!--Container-->
-        <div>
-            <!--Table-->
-            <table>
-                <tr>
-                    <!--Row for attraction images-->
-                    <th><img src=”img1.jpg” alt=”Image1” width=”50” height=”30”></th>
-                    <th><img src=”img2.jpg” alt=”Image2” width=”50” height=”30”></th>
-                    <th><img src=”img3.jpg” alt=”Image3” width=”50” height=”30”></th>
-                    <th><img src=”img4.jpg” alt=”Image4” width=”50” height=”30”></th>
-                </tr>
-                <!--End row for attraction images-->
+            <!--Line break-->
+            <br />
+            <hr />
+            <br />
 
-                <tr>
-                    <!--Row for attraction names-->
-                    <td>Attraction Name</td>
-                    <td>Attraction Name</td>
-                    <td>Attraction Name</td>
-                    <td>Attraction Name</td>
-                </tr>
-                <!--End row for attraction names-->
 
-                <tr>
-                    <!--Row for attraction buttons-->
-                    <td><a href="link">Button</a></td>
-                    <td><a href="link">Button</a></td>
-                    <td><a href="link">Button</a></td>
-                    <td><a href="link">Button</a></td>
-                </tr>
-                <!--End row for attraction buttons-->
+            <!--Attractions Div-->
+            <div id="services-attractions">
+                <!--Title for attractions section-->
+                <h1>
+                    <center>Attractions</center>
+                </h1>
 
-                <tr>
-                    <!--Row for regulations-->
-                    <td>Regulations</td>
-                    <td>Regulations</td>
-                    <td>Regulations</td>
-                    <td>Regulations</td>
-                </tr>
-                <!--End row for regulations-->
+                <!-- Row -->
+                <div>
+                    <!-- Attraction Item-->
+                    <div>
+                        <!-- Attraction item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
+                        </div>
+                        <!-- Attraction item text container to make it centered vertically -->
+                        <div>
+                            <h3>Attraction</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
 
-                <tr>
-                    <!--Row for regulation specifications-->
-                    <td>XX cm<br>XX kg</td>
-                    <td>XX cm<br>XX kg</td>
-                    <td>XX cm<br>XX kg</td>
-                    <td>XX cm<br>XX kg</td>
-                </tr>
-                <!--End row for regulation specifications-->
-            </table>
-            <!--End table-->
+                        </div>
+
+                        <!-- Attraction Regulation text container to make fixed at bottom -->
+                        <div>
+                            <h3>Regulations</h3>
+                            <ul>
+                                <li>xx cm - xx ft</li>
+                                <li>xx kg - xx lbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Attraction Item -->
+                    <!-- Attraction Item-->
+                    <div>
+                        <!-- Attraction item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
+                        </div>
+                        <!-- Attraction item text container to make it centered vertically -->
+                        <div>
+                            <h3>Attraction</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                        <!-- Attraction Regulation text container to make fixed at bottom -->
+                        <div>
+                            <h3>Regulations</h3>
+                            <ul>
+                                <li>xx cm - xx ft</li>
+                                <li>xx kg - xx lbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Attraction Item -->
+                    <!-- Attraction Item-->
+                    <div>
+                        <!-- Attraction item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
+                        </div>
+                        <!-- Attraction item text container to make it centered vertically -->
+                        <div>
+                            <h3>Attraction</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                        <!-- Attraction Regulation text container to make fixed at bottom -->
+                        <div>
+                            <h3>Regulations</h3>
+                            <ul>
+                                <li>xx cm - xx ft</li>
+                                <li>xx kg - xx lbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Attraction Item -->
+                    <!-- Attraction Item-->
+                    <div>
+                        <!-- Attraction item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
+                        </div>
+                        <!-- Attraction item text container to make it centered vertically -->
+                        <div>
+                            <h3>Attraction</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                        <!-- Attraction Regulation text container to make fixed at bottom -->
+                        <div>
+                            <h3>Regulations</h3>
+                            <ul>
+                                <li>xx cm - xx ft</li>
+                                <li>xx kg - xx lbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Attraction Item -->
+                </div>
+                <!-- End Row -->
+
+                <!-- Row -->
+                <div>
+                    <!-- Attraction Item-->
+                    <div>
+                        <!-- Attraction item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
+                        </div>
+                        <!-- Attraction item text container to make it centered vertically -->
+                        <div>
+                            <h3>Attraction</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                        <!-- Attraction Regulation text container to make fixed at bottom -->
+                        <div>
+                            <h3>Regulations</h3>
+                            <ul>
+                                <li>xx cm - xx ft</li>
+                                <li>xx kg - xx lbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Attraction Item -->
+                    <!-- Attraction Item-->
+                    <div>
+                        <!-- Attraction item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
+                        </div>
+                        <!-- Attraction item text container to make it centered vertically -->
+                        <div>
+                            <h3>Attraction</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                        <!-- Attraction Regulation text container to make fixed at bottom -->
+                        <div>
+                            <h3>Regulations</h3>
+                            <ul>
+                                <li>xx cm - xx ft</li>
+                                <li>xx kg - xx lbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Attraction Item -->
+                    <!-- Attraction Item-->
+                    <div>
+                        <!-- Attraction item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
+                        </div>
+                        <!-- Attraction item text container to make it centered vertically -->
+                        <div>
+                            <h3>Attraction</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                        <!-- Attraction Regulation text container to make fixed at bottom -->
+                        <div>
+                            <h3>Regulations</h3>
+                            <ul>
+                                <li>xx cm - xx ft</li>
+                                <li>xx kg - xx lbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Attraction Item -->
+                    <!-- Attraction Item-->
+                    <div>
+                        <!-- Attraction item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
+                        </div>
+                        <!-- Attraction item text container to make it centered vertically -->
+                        <div>
+                            <h3>Attraction</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                        <!-- Attraction Regulation text container to make fixed at bottom -->
+                        <div>
+                            <h3>Regulations</h3>
+                            <ul>
+                                <li>xx cm - xx ft</li>
+                                <li>xx kg - xx lbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Attraction Item -->
+                </div>
+                <!-- End Row -->
+
+            </div>
+            <!--Attractions Div-->
+
+            <!--Line break-->
+            <br />
+            <hr />
+            <br />
+
+
+
+            <!--Food div-->
+            <div id="services-food">
+                <!--Title for food section-->
+                <h1>
+                    <center>Food</center>
+                </h1>
+
+                <!-- Row -->
+                <div>
+                    <!-- Sandwiches Item-->
+                    <div>
+                        <!-- Sandwiches item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/sandwiches_food.jpg" alt="Sandwich Image" height="115" width="215">
+                        </div>
+                        <!-- Sandwiches item text container to make it centered vertically -->
+                        <div>
+                            <h3>Sandwiches</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <!-- End Sandwiches Item -->
+
+                    <!-- Pizza Item-->
+                    <div>
+                        <!-- Pizza item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/pizza_food.jpeg" alt="Pizza image" height="115" width="215">
+                        </div>
+                        <!-- Pizza item text container to make it centered vertically -->
+                        <div>
+                            <h3>Pizza</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <!-- End Pizza Item -->
+                    <!-- BBQ Item-->
+                    <div>
+                        <!-- BBQ item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/bbq_food.png" alt="BBQ Image" height="115" width="215">
+                        </div>
+                        <!-- BBQ item text container to make it centered vertically -->
+                        <div>
+                            <h3>BBQ</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <!-- End BBQ Item -->
+
+                    <!-- Dessert Item-->
+                    <div>
+                        <!-- Dessert item img container to make fixed on the top -->
+                        <div>
+                            <img src="images/dessert_food.jpg" alt="Ice Cream Image" height="115" width="215">
+                        </div>
+                        <!-- Dessert item text container to make it centered vertically -->
+                        <div>
+                            <h3>Dessert</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <!-- End Dessert Item -->
+                </div>
+                <!-- End Row -->
+
+            </div>
+            <!--End Food div-->
+
+            <!--Line break-->
+            <br />
+            <hr />
+            <br />
+
+
+
+            <!--Accommodations-->
+            <div id="services-accommodations">
+                <!--Title for accommodations-->
+                <h1>
+                    <center>Accommodations</center>
+                </h1>
+
+                <!-- Cabins Item Image to the Left-->
+                <div>
+                    <!-- Cabins item img container to take the Left half of the container -->
+                    <div>
+                        <img src="images/cabins_accommodations.jpeg" alt="Cabin Image" height="264" width="460">
+                    </div>
+
+                    <!-- Cabins item text container to take Right side -->
+                    <div>
+                        <h2>Cabins</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                            voluptates.
+                        </p>
+
+                        <button>
+                            <a href="#">Bye Now</a>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- End Cabins Item image to the  Left-->
+
+                <!-- Luxury Item Image to the Left-->
+                <div>
+                    <!-- Luxury item img container to take the Left half of the container -->
+                    <div>
+                        <img src="images/luxury_accommodations.png" alt="Luxury room Image" height="264" width="460">
+                    </div>
+
+                    <!-- Luxury item text container to take Right side -->
+                    <div>
+                        <h2>Luxury</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                            voluptates.
+                        </p>
+
+                        <button>
+                            <a href="#">Buy Now</a>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- End Luxury Item image to the  Left-->
+
+
+            </div>
+            <!--End Accommodations div-->
+
         </div>
-        <div>
-            <!--Table-->
-            <table>
-                <tr>
-                    <!--Row for attraction images-->
-                    <th><img src=”img1.jpg” alt=”Image1” width=”50” height=”30”></th>
-                    <th><img src=”img2.jpg” alt=”Image2” width=”50” height=”30”></th>
-                    <th><img src=”img3.jpg” alt=”Image3” width=”50” height=”30”></th>
-                    <th><img src=”img4.jpg” alt=”Image4” width=”50” height=”30”></th>
-                </tr>
-                <!--End row for attraction images-->
-
-                <tr>
-                    <!--Row for attraction names-->
-                    <td>Attraction Name</td>
-                    <td>Attraction Name</td>
-                    <td>Attraction Name</td>
-                    <td>Attraction Name</td>
-                </tr>
-                <!--End row for attraction names-->
-
-                <tr>
-                    <!--Row for attraction buttons-->
-                    <td><a href="link">Button</a></td>
-                    <td><a href="link">Button</a></td>
-                    <td><a href="link">Button</a></td>
-                    <td><a href="link">Button</a></td>
-                </tr>
-                <!--End row for attraction buttons-->
-
-                <tr>
-                    <!--Row for regulations-->
-                    <td>Regulations</td>
-                    <td>Regulations</td>
-                    <td>Regulations</td>
-                    <td>Regulations</td>
-                </tr>
-                <!--End row for regulations-->
-
-                <tr>
-                    <!--Row for regulation specifications-->
-                    <td>XX cm<br>XX kg</td>
-                    <td>XX cm<br>XX kg</td>
-                    <td>XX cm<br>XX kg</td>
-                    <td>XX cm<br>XX kg</td>
-                </tr>
-                <!--End row for regulation specifications-->
-            </table>
-            <!--End table-->
-        </div>
-    </div>
-    <!--End container-->
-
+        <!-- End Container div -->
+    </main>
     <!--Line break-->
-    <br>
-
-    <!--Title for food section-->
-    <h1>
-        <center>Food</center>
-    </h1>
-
-    <div>
-        <!--Container-->
-        <!--Table-->
-        <table>
-            <tr>
-                <!--Row for food images-->
-                <th><img src=”img1.jpg” alt=”Food1” width=”50” height=”30”></th>
-                <th><img src=”img2.jpg” alt=”Food2” width=”50” height=”30”></th>
-                <th><img src=”img3.jpg” alt=”Food3” width=”50” height=”30”></th>
-                <th><img src=”img4.jpg” alt=”Food4” width=”50” height=”30”></th>
-            </tr>
-            <!--End row for food images-->
-
-            <tr>
-                <!--Row for food names-->
-                <td>Sandwiches</td>
-                <td>Pizza</td>
-                <td>Pasta</td>
-                <td>BBQ</td>
-            </tr>
-            <!--End row for food names-->
-
-            <tr>
-                <!--Row for food specifications-->
-                <td>Additional text/info goes here</td>
-                <td>Additional text/info goes here</td>
-                <td>Additional text/info goes here</td>
-                <td>Additional text/info goes here</td>
-            </tr>
-            <!--End row for food specifications-->
-        </table>
-        <!--End table-->
-    </div>
-    <!--End container-->
-
-    <!--Line break-->
-    <br>
-
-    <!--Title for accomodations-->
-    <h2>
-        <center>Accomodations</center>
-    </h2>
-
-    <div>
-        <!--Container-->
-        <!--Table-->
-        <table>
-            <tr>
-                <!--Cabin information-->
-                <td><img src=”Cabins.jpg” alt=”Cabin Image” width=”100” height=”50”></td>
-                <th>
-                    <h3>Cabins</h3>
-                    <p>Additional text goes here</p>
-                    <<button type=”button">Purchase</button>
-                </th>
-                <!--End cabin information-->
-            </tr>
-
-            <tr>
-                <!--Luxury information-->
-                <td><img src=”Luxury.jpg” alt=”Luxury Image” width=”100” height=”50”></td>
-                <th>
-                    <h3>Night Bands</h3>
-                    <p>Additional text goes here</p>
-                    <<button type=”button">Purchase</button>
-                </th>
-                <!--End luxury information-->
-            </tr>
-        </table>
-        <!--End table-->
-    </div>
-    <!--End container-->
-
-    <!--Line break-->
-    <br>
+    <br />
+    <hr />
+    <br />
 
     <!--Footer-->
     <footer id="footer">
