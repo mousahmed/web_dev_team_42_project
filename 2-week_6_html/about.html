@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>About | Theme Park</title>
 </head>
+
 <body>
     <!-- Navbar  -->
     <nav>
@@ -21,8 +23,8 @@
             <!-- Right side of the bar -->
             <div>
                 <h4><a href="index.html">Home</a></h4>
-                <h4><a href="index.html">Services</a></h4>
-                <h4><a href="index.html">About Park</a></h4>
+                <h4><a href="services.html">Services</a></h4>
+                <h4><a href="about.html">About Park</a></h4>
                 <Button>Buy Now</Button>
             </div>
             <!-- End Right side of the navbar -->
@@ -30,163 +32,309 @@
         <!-- End Container -->
     </nav>
     <!-- End Navbar -->
-    
+
+    <br />
+    <hr />
+    <br />
 
     <main>
-        <section id="about-contact">
-            <div class="about-contact-info">
-                <img src="./img/address.jpg" alt="image" class="about-contact-image" width="50" height="50">
-                <h3>Address</h3>
-                <address id="about-address">
-                    4832 Liberty Avenue<br>
-                    Irvine<br>
-                    California
-                </address>
-            </div>
-            <div class="about-contact-info">
-                <img src="./img/address.jpg" alt="image" class="about-contact-image" width="50" height="50">
-                <h3>Contact Numbers</h3>
-                <p>
-                    +1 949-300-856<br>
-                    +1 714-470-9621
-                </p>
-            </div>
-            <div class="about-contact-info">
-                <img src="./img/address.jpg" alt="image" class="about-contact-image" width="50" height="50">
-                <h3>Email Enquiries</h3>
-                <p>
-                    email@website.com
-                </p>
-            </div>
-            <div class="about-contact-info">
-                <img src="./img/address.jpg" alt="image" class="about-contact-image" width="50" height="50">
-                <h3>Live Chat</h3>
-                <p>
-                    +1 714-470-9621
-                </p>
-            </div>
-        </section>
+        <!-- Container -->
+        <div>
+            <!-- General Info Section -->
+            <section id="about-contact">
+                <!-- Address General Info -->
+                <div class="about-contact-info">
+                    <!-- Make the image stick to top  half -->
+                    <div>
+                        <img src="images/address_info.png" alt="image" class="about-contact-image" width="215"
+                            height="200">
+                    </div>
+
+                    <!-- Make the content stick to bottom half -->
+                    <div>
+                        <h3>Address</h3>
+                        <address id="about-address">
+                            4832 Liberty Avenue<br>
+                            Irvine<br>
+                            California
+                        </address>
+                    </div>
+
+                </div>
+                <!-- Address General Info -->
 
 
-        <section id="about-map" class="park-map">
-            <img src="./img/park-map.jpg" alt="Park Map" width="800" height="600">
-            <map name="park-map">
-                <!-- <area shape="" coords="" href="" alt="">
-                <area shape="" coords="" href="" alt="">
-                <area shape="" coords="" href="" alt="">
-                <area shape="" coords="" href="" alt=""> -->
-            </map>
-        </section>
+                <!-- Phone General Info -->
+                <div class="about-contact-info">
+                    <!-- Make the image stick to top  half -->
+                    <div>
+                        <img src="images/phone_info.jpg" alt="image" class="about-contact-image" width="215"
+                            height="200">
+                    </div>
+
+                    <!-- Make the content stick to bottom half -->
+                    <div>
+                        <h3>Phone Numbers</h3>
+                        <a href="tel:+1949300856">+1 949-300-856</a> <br />
+                        <a href="tel:+17144709621">+1 714-470-9621</a>
+                    </div>
+
+                </div>
+                <!-- End Phone General Info -->
 
 
-        <!--Extra Info Section -->
-        <section id="Extra">
-            <!-- Directions & Parking Section -->
-            <dir>
-                <img src="/Pictures/Directions - Arrow.jpg" alt="Directions & Parking" width="375" height="450">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis voluptates.</p>
-            </dir>
-            <!-- End Directions & Parking Section -->
+                <!-- Email General Info -->
+                <div class="about-contact-info">
+                    <!-- Make the image stick to top  half -->
+                    <div>
+                        <img src="images/email_info.png" alt="image" class="about-contact-image" width="215"
+                            height="200">
+                    </div>
 
-            <!-- Accessibility Section -->
-            <dir>
-                <img src="/Pictures/Accessibility.jpg" alt="Accessibility"  width="375" height="450">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis voluptates.</p>
-            </dir>
-            <!-- End Accessibility Section -->
-            <br>
+                    <!-- Make the content stick to bottom half -->
+                    <div>
+                        <h3>Email Enquiries </h3>
+                        <a href="mailto:email@website.com">email@website.com</a>
+                    </div>
 
-            <!-- Medical Care Section -->
-            <dir>
-                <img src="/Pictures/Medical.jpg" alt="Medical Care"  width="375" height="450">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis voluptates.</p>
-            </dir>
-            <!-- End Medical Care Section -->
+                </div>
+                <!-- End Email General Info -->
 
-            <!-- Money Services Section -->
-            <dir>
-                <img src="/Pictures/Money.jpg" alt="Money Services"  width="375" height="450">   
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis voluptates.</p>      
-            </dir>
-            <!-- End Money Services Section -->
-        </section>
-        <!--End Extra Info Section -->
+                <!-- Chat General Info -->
+                <div class="about-contact-info">
+                    <!-- Make the image stick to top  half -->
+                    <div>
+                        <img src="images/live_chat_info.png" alt="image" class="about-contact-image" width="215"
+                            height="200">
+                    </div>
 
+                    <!-- Make the content stick to bottom half -->
+                    <div>
+                        <h3>Live Chat</h3>
+                        <a href="https://wa.me/+17144709621">+1 714-470-9621</a>
+                    </div>
 
-        <!--Review Section  -->
-        <section id="Reviews">
-            <h2>Reviews</h2>
-            <!-- Review 1 -->
-            <div>
-                <h3>John Doe</h3>
-                <p>The most magical place in the world. Have the best  <br> time here, staff were very friendly. The rides were really fun.</p>
-                <img src="\Pictures\Stars.jpg" alt="Rating 1 - 4 Stars">
-            </div>
+                </div>
+                <!-- End Chat General Info -->
 
-            <!-- Review 2 -->
-            <div>
-                <h3>John Doe</h3>
-                <p>My family and I have already gone twice now. <br> Both times we had wonderful and amazing experiences. <br> People, food and the all around atmosphere are the best. <br> We cant wait to plan our next trip. I highly recommend it.</p>
-                <img src="\Pictures\Stars.jpg" alt="Rating 2 - 4 Stars">
-            </div>
-
-            <br>
-            <!-- Review 3 -->
-            <div>
-                <h3>John Doe</h3>
-                <p>An absolutely wonderful experience! I’ve been <br> numerous times in the past but I can’t describe how <br> much fun this park is. The entertainment is wonderful <br> the food is good and the shows are even better. </p>
-                <img src="\Pictures\Stars.jpg" alt="Rating 3 - 4 Stars">
-            </div>
-
-            <!-- Review 4 -->
-            <div>
-                <h3>John Doe</h3>
-                <p>A truly magical experience, I had so much fun visiting. </p>
-                <img src="\Pictures\Stars.jpg" alt="Rating 4 - 4 Stars">
-            </div>
-        </section>
-        <!-- End Review Section -->
+            </section>
+            <!-- End Section -->
+            <br />
+            <hr />
+            <br />
+            <!-- Park Map Section -->
+            <section id="about-map">
+                <img src="images/park_map.png" alt="Park Map" width="950" height="518" usemap="#parkMap">
+                <map name="parkMap">
+                    <!-- point 10 -->
+                    <area shape="circle" coords="225,98,20" alt="Link" href="services.html">
+                    <!-- point 9 -->
+                    <area shape="circle" coords="165,273,20" alt="Link" href="services.html">
+                    <!-- point 8 -->
+                    <area shape="circle" coords="93,453,20" alt="Link" href="services.html">
+                    <!-- point 7 -->
+                    <area shape="circle" coords="405,447,20" alt="Link" href="services.html">
+                    <!-- point 6 -->
+                    <area shape="circle" coords="493,285,20" alt="Link" href="services.html">
+                    <!-- point 5 -->
+                    <area shape="circle" coords="618,86,20" alt="Link" href="services.html">
+                    <!-- point 4 -->
+                    <area shape="circle" coords="701,194,20" alt="Link" href="services.html">
+                    <!-- point 3 -->
+                    <area shape="circle" coords="751,295,20" alt="Link" href="services.html">
+                    <!-- point 2 -->
+                    <area shape="circle" coords="788,388,20" alt="Link" href="services.html">
+                    <!-- point 1 -->
+                    <area shape="circle" coords="720,483,20" alt="Link" href="services.html">
 
 
-        <!-- FAQ Section -->
-        <section id="FAQ">
-            <h2>FAQs</h2>
-            <!-- FAQ 1 -->
-            <div>
-                <h3>Where are you located?</h3>
-                <p>For directions, <a href="\about.html">Click Here</a></p>
-                <br>
-            </div>
-            <!-- End FAQ 1 -->
+                </map>
+            </section>
+            <!-- End Section -->
+            <br />
+            <hr />
+            <br />
+            <!--Extra Info Section -->
+            <section id="about-extra">
+                <!--Directions & Parking Info Div -->
+                <div>
+                    <!-- Stick the image to the top half of the container -->
+                    <div>
+                        <img src="images/parking_info.jpg" alt="Directions & Parking" width="460" height="264">
+                    </div>
+                    <!-- Stick the text to bottom half of the container -->
+                    <div>
+                        <h3>Directions & Parking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                            voluptates.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Directions & Parking Info Div -->
 
-            <!-- FAQ 2 -->
-            <div>
-                <h3>How much is parking? Where do I park?</h3>
-                <p>For Parking information, <a href="\about.html">Click Here</a></p>
-                <br>
-            </div>
-            <!-- End FAQ 2 -->
 
-            <!-- FAQ 3 -->
-            <div>
-                <h3>What hours are you open?</h3>
-                <p>For Hours of operation, <a href="\index.html">Click Here</a></p>
-                <br>
-            </div>
-            <!-- End FAQ 3 -->
+                <!--Accessibility Info Div -->
+                <div>
+                    <!-- Stick the image to the top half of the container -->
+                    <div>
+                        <img src="images/accessibility_info.jpg" alt="Directions & Parking" width="460" height="264">
+                    </div>
+                    <!-- Stick the text to bottom half of the container -->
+                    <div>
+                        <h3>Accessibility</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                            voluptates.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Accessibility Info Div -->
 
-            <!-- FAQ 4 -->
-            <div>
-                <h3>What’s the minimum age for a child to be in the park without supervision?</h3>
-                <p>We recommend that all guest below the age of 14 have a supervising companion that is 14 years of age or older and meets all other attraction ridership requirements.</p>
-                <br>
-            </div>
-            <!-- End FAQ 4 -->
-        </section>
-        <!-- End FAQ Section -->
+                <!--Medical Care Info Div -->
+                <div>
+                    <!-- Stick the image to the top half of the container -->
+                    <div>
+                        <img src="images/medical_care_info.png" alt="Directions & Parking" width="460" height="264">
+                    </div>
+                    <!-- Stick the text to bottom half of the container -->
+                    <div>
+                        <h3>Medical Care</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                            voluptates.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Medical Care Info Div -->
+
+
+                <!--Money Services Info Div -->
+                <div>
+                    <!-- Stick the image to the top half of the container -->
+                    <div>
+                        <img src="images/money_services_info.png" alt="Directions & Parking" width="460" height="264">
+                    </div>
+                    <!-- Stick the text to bottom half of the container -->
+                    <div>
+                        <h3>Money Services</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                            voluptates.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Money Services Info Div -->
+
+            </section>
+            <!--End Extra Info Section -->
+
+            <br />
+            <hr />
+            <br />
+            <!--Review Section  -->
+            <section id="about-reviews">
+                <h2>Reviews</h2>
+                <!-- Row -->
+                <div>
+                    <!-- Review 1 -->
+                    <div>
+                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+
+                        <h3>John Doe</h3>
+                        <p>The most magical place in the world. Have the best <br> time here, staff were very friendly.
+                            The
+                            rides were really fun.</p>
+                    </div>
+                    <!-- End Review 1 -->
+
+                    <!-- Review 2 -->
+                    <div>
+                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+
+                        <h3>John Doe</h3>
+                        <p>My family and I have already gone twice now. <br> Both times we had wonderful and amazing
+                            experiences. <br> People, food and the all around atmosphere are the best. <br> We cant wait
+                            to
+                            plan
+                            our next trip. I highly recommend it.</p>
+                    </div>
+                    <!-- End Review 2 -->
+                </div>
+                <!-- End Row -->
+                <!-- Row -->
+                <div>
+                    <!-- Review 3 -->
+                    <div>
+                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+
+                        <h3>John Doe</h3>
+                        <p>An absolutely wonderful experience! I’ve been <br> numerous times in the past but I can’t
+                            describe
+                            how <br> much fun this park is. The entertainment is wonderful <br> the food is good and the
+                            shows
+                            are even better. </p>
+                    </div>
+                    <!-- End Review 3 -->
+                    <!-- Review 4 -->
+                    <div>
+                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+
+                        <h3>John Doe</h3>
+                        <p>A truly magical experience, I had so much fun visiting. </p>
+                    </div>
+                    <!-- End Review 4 -->
+                </div>
+                <!-- End Row -->
+
+            </section>
+            <!-- End Review Section -->
+
+            <br />
+            <hr />
+            <br />
+            <!-- FAQ Section -->
+            <section id="about-faq">
+                <h2>FAQs</h2>
+                <!-- FAQ 1 -->
+                <div>
+                    <h3>Where are you located?</h3>
+                    <p>For directions, <a href="about.html">Click Here</a></p>
+
+                </div>
+                <!-- End FAQ 1 -->
+
+                <!-- FAQ 2 -->
+                <div>
+                    <h3>How much is parking? Where do I park?</h3>
+                    <p>For Parking information, <a href="about.html">Click Here</a></p>
+
+                </div>
+                <!-- End FAQ 2 -->
+
+                <!-- FAQ 3 -->
+                <div>
+                    <h3>What hours are you open?</h3>
+                    <p>For Hours of operation, <a href="index.html">Click Here</a></p>
+
+                </div>
+                <!-- End FAQ 3 -->
+
+                <!-- FAQ 4 -->
+                <div>
+                    <h3>What’s the minimum age for a child to be in the park without supervision?</h3>
+                    <p>We recommend that all guest below the age of 14 have a supervising companion that is 14 years of
+                        age
+                        or older and meets all other attraction ridership requirements.</p>
+
+                </div>
+                <!-- End FAQ 4 -->
+
+            </section>
+            <!-- End FAQ Section -->
+        </div>
+        <!-- End Container -->
     </main>
     <!-- End Main -->
-
+    <br />
+    <hr />
+    <br />
 
     <!-- Footer -->
     <footer id="footer">
@@ -221,7 +369,5 @@
     </footer>
     <!-- End Footer -->
 </body>
+
 </html>
-    
-    
-    
