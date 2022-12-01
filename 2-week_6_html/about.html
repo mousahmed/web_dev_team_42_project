@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheet.css">
     <title>About | Theme Park</title>
 </head>
 
@@ -34,7 +35,7 @@
     <!-- End Navbar -->
 
     <br>
-    <hr>
+
     <br>
 
     <main>
@@ -52,11 +53,10 @@
 
                     <!-- Make the content stick to bottom half -->
                     <div>
-                        <h3>Address</h3>
+                        <h3 class="primary-text">Address</h3>
                         <address id="about-address">
                             4832 Liberty Avenue<br>
-                            Irvine<br>
-                            California
+                            Irvine, California
                         </address>
                     </div>
 
@@ -68,13 +68,13 @@
                 <div class="about-contact-info">
                     <!-- Make the image stick to top  half -->
                     <div>
-                        <img src="images/phone_info.jpg" alt="image" class="about-contact-image" width="215"
+                        <img src="images/phone_info.png" alt="image" class="about-contact-image" width="215"
                             height="200">
                     </div>
 
                     <!-- Make the content stick to bottom half -->
                     <div>
-                        <h3>Phone Numbers</h3>
+                        <h3 class="primary-text">Phone Numbers</h3>
                         <a href="tel:+1949300856">+1 949-300-856</a> <br>
                         <a href="tel:+17144709621">+1 714-470-9621</a>
                     </div>
@@ -93,7 +93,7 @@
 
                     <!-- Make the content stick to bottom half -->
                     <div>
-                        <h3>Email Enquiries </h3>
+                        <h3 class="primary-text">Email Enquiries </h3>
                         <a href="mailto:email@website.com">email@website.com</a>
                     </div>
 
@@ -110,7 +110,7 @@
 
                     <!-- Make the content stick to bottom half -->
                     <div>
-                        <h3>Live Chat</h3>
+                        <h3 class="primary-text">Live Chat</h3>
                         <a href="https://wa.me/+17144709621">+1 714-470-9621</a>
                     </div>
 
@@ -120,12 +120,11 @@
             </section>
             <!-- End Section -->
             <br>
-            <hr>
+
             <br>
             <!-- Park Map Section -->
             <section id="map">
-                <h1>Park Map</h1>
-                <img src="images/park_map.png" alt="Park Map" width="950" height="518" usemap="#parkMap">
+                <img src="images/park_map.png" alt="Park Map"  usemap="#parkMap">
                 <map name="parkMap">
                     <!-- point 10 -->
                     <area shape="circle" coords="210,98,20" alt="Link" href="#">
@@ -154,60 +153,58 @@
             <!-- End Map Section -->
 
             <br>
-            <hr>
+
             <br>
 
             <!--Extra Info Section -->
             <section id="about-extra">
                 <!-- Row -->
-                <div>
-                    <!--Directions & Parking Info Div -->
-                    <div>
-                        <!-- Stick the image to the top half of the container -->
-                        <div>
-                            <img src="images/parking_info.jpg" alt="Directions & Parking" width="460" height="264">
-                        </div>
-                        <!-- Stick the text to bottom half of the container -->
-                        <div>
-                            <h3>Directions & Parking</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
-                                voluptates.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End Directions & Parking Info Div -->
-
-
+                <div class="about-extra-row-one">
                     <!--Accessibility Info Div -->
-                    <div>
+                    <div class="accessibility">
                         <!-- Stick the image to the top half of the container -->
                         <div>
-                            <img src="images/accessibility_info.jpg" alt="Directions & Parking" width="460"
-                                height="264">
+                            <img src="images/accessibility_info.jpg" alt="Accessibility information">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
                         <div>
-                            <h3>Accessibility</h3>
+                            <h3 class="primary-text">Accessibility</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
                             </p>
                         </div>
                     </div>
                     <!-- End Accessibility Info Div -->
+
+                    <!--Directions & Parking Info Div -->
+                    <div id="directions">
+                        <!-- Stick the image to the top half of the container -->
+                        <div>
+                            <img src="images/parking_info.jpg" alt="Directions & Parking">
+                        </div>
+                        <!-- Stick the text to bottom half of the container -->
+                        <div>
+                            <h3 class="primary-text">Directions & Parking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
+                                voluptates.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Directions & Parking Info Div -->
                 </div>
                 <!-- End Row -->
 
                 <!-- Row -->
-                <div>
+                <div class="about-extra-row-two">
                     <!--Medical Care Info Div -->
-                    <div>
+                    <div class="med">
                         <!-- Stick the image to the top half of the container -->
                         <div>
-                            <img src="images/medical_care_info.png" alt="Directions & Parking" width="460" height="264">
+                            <img src="images/medical_care_info.png" alt="Medical Care Information">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
                         <div>
-                            <h3>Medical Care</h3>
+                            <h3 class="primary-text">Medical Care</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
                             </p>
@@ -219,13 +216,12 @@
                     <!--Money Services Info Div -->
                     <div>
                         <!-- Stick the image to the top half of the container -->
-                        <div>
-                            <img src="images/money_services_info.png" alt="Directions & Parking" width="460"
-                                height="264">
+                        <div class="money">
+                            <img src="images/money_services_info.png" alt="Money Services Information">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
                         <div>
-                            <h3>Money Services</h3>
+                            <h3 class="primary-text">Money Services</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
                             </p>
@@ -239,58 +235,48 @@
             <!--End Extra Info Section -->
 
             <br>
-            <hr>
+
             <br>
             <!--Review Section  -->
             <section id="about-reviews">
-                <h2>Reviews</h2>
+                <h2 class="primary-text">Reviews</h2>
                 <!-- Row -->
-                <div>
+                <div class="about-reviews-row-one">
                     <!-- Review 1 -->
                     <div>
-                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
-
+                        <img src="images/User (1).png" alt="User 1 image">
+                        
                         <h3>John Doe</h3>
                         <h4>4.8 / 5</h4>
-                        <p>The most magical place in the world. Have the best <br> time here, staff were very friendly.
-                            The
-                            rides were really fun.</p>
+                        <p>The most magical place in the world. Have the best  time here, staff were very friendly.  The rides were really fun.</p>
                     </div>
                     <!-- End Review 1 -->
 
                     <!-- Review 2 -->
                     <div>
-                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+                        <img src="images/User (2).png" alt="User 2 image">
 
                         <h3>John Doe</h3>
                         <h4>4.8 / 5</h4>
-                        <p>My family and I have already gone twice now. <br> Both times we had wonderful and amazing
-                            experiences. <br> People, food and the all around atmosphere are the best. <br> We cant wait
-                            to
-                            plan
-                            our next trip. I highly recommend it.</p>
+                        <p>My family and I have already gone twice now.  Both times we had wonderful and amazing experiences.  People, food and the all around atmosphere are the best.  We cant wait to plan our next trip. I highly recommend it.</p>
                     </div>
                     <!-- End Review 2 -->
                 </div>
                 <!-- End Row -->
                 <!-- Row -->
-                <div>
+                <div class="about-reviews-row-two">
                     <!-- Review 3 -->
                     <div>
-                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+                        <img src="images/User (3).png" alt="User 3 image">
 
                         <h3>John Doe</h3>
                         <h4>4.8 / 5</h4>
-                        <p>An absolutely wonderful experience! I’ve been <br> numerous times in the past but I can’t
-                            describe
-                            how <br> much fun this park is. The entertainment is wonderful <br> the food is good and the
-                            shows
-                            are even better. </p>
+                        <p>An absolutely wonderful experience! I’ve been numerous times but I can’t describe how much fun this park is. The entertainment is wonderful the food is good & the shows are even better. </p>
                     </div>
                     <!-- End Review 3 -->
                     <!-- Review 4 -->
                     <div>
-                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+                        <img src="images/User (4).png" alt="User 4 image">
 
                         <h3>John Doe</h3>
                         <h4>4.8 / 5</h4>
@@ -304,41 +290,52 @@
             <!-- End Review Section -->
 
             <br>
-            <hr>
+
             <br>
             <!-- FAQ Section -->
             <section id="about-faq">
-                <h2>FAQs</h2>
+                <h2 class="primary-text">FAQs</h2>
                 <!-- FAQ 1 -->
                 <div>
-                    <h3>Where are you located?</h3>
-                    <p>For directions, <a href="about.html">Click Here</a></p>
-
+                    <h3>Q: Where are you located?</h3>
+                    <p>For directions, <a href="#directions">Click Here</a></p>
                 </div>
                 <!-- End FAQ 1 -->
 
                 <!-- FAQ 2 -->
                 <div>
-                    <h3>How much is parking? Where do I park?</h3>
-                    <p>For Parking information, <a href="about.html">Click Here</a></p>
-
+                    <h3>Q: How much is parking?</h3>
+                    <p>For Parking information, <a href="#directions">Click Here</a></p>
                 </div>
                 <!-- End FAQ 2 -->
 
                 <!-- FAQ 3 -->
                 <div>
-                    <h3>What hours are you open?</h3>
-                    <p>For Hours of operation, <a href="index.html">Click Here</a></p>
-
+                    <h3>Q: What hours are you open?</h3>
+                    <!-- Opening Hours Table -->
+                    <table>
+                        <tr>
+                            <td> Sunday through Thursday</td>
+                            <td>11:00 - 23:00</td>
+                        </tr>
+                        <tr>
+                            <td> Friday and Saturday</td>
+                            <td>09:00 - 01:00</td>
+                        </tr>
+                        <tr>
+                            <td>Holidays</td>
+                            <td>09:00 - 23:00</td>
+                        </tr>
+                    </table>
+                    <!-- End Opening Hours Table -->
                 </div>
                 <!-- End FAQ 3 -->
 
                 <!-- FAQ 4 -->
                 <div>
-                    <h3>What’s the minimum age for a child to be in the park without supervision?</h3>
+                    <h3>Q: What’s the minimum age for a child to be in the park without supervision?</h3>
                     <p>We recommend that all guest below the age of 14 have a supervising companion that is 14 years of
-                        age
-                        or older and meets all other attraction ridership requirements.</p>
+                        age or older and meets all other attraction requirements.</p>
 
                 </div>
                 <!-- End FAQ 4 -->

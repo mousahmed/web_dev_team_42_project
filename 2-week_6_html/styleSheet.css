@@ -1,0 +1,124 @@
+.primary-text 
+{
+        color: #0E3967;
+}
+
+
+#about-contact
+{
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+}
+
+#about-contact img
+{
+        width: 60%;
+        height: 60%;
+}
+
+
+#map
+{
+        display: grid;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+}
+
+#map img
+{
+        width:100%;
+}
+
+
+#about-extra
+{
+        display: grid;
+        grid-template-rows:repeat(4, 25%);
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        text-align: center;
+}
+
+.about-extra-row-one
+{
+        gap: 5%;
+        display: grid;
+        grid-row: 1 / 3;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 10%;
+}
+
+.about-extra-row-two
+{
+        gap: 5%;
+        display: grid;
+        grid-row: 3 / -1;
+        grid-template-columns: 1fr 1fr;
+}
+
+#about-extra img
+{
+        width: 100%;  
+}
+
+
+#about-reviews
+{
+        display: grid;
+        grid-template-rows: 0.5fr 2fr 2fr;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 2%;
+        text-align: center;
+}
+
+.about-reviews-row-one
+{
+        gap: 5%;
+        display: grid;
+        grid-row: 2 / 4;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 10%;
+}
+
+.about-reviews-row-two
+{
+        gap: 5%;
+        display: grid;
+        grid-row: 4 / -1;
+        grid-template-columns: 1fr 1fr;
+}
+
+#about-reviews img
+{
+        width: 20%;
+}
+
+
+#about-faq 
+{
+        display: grid;
+        grid-template-rows: 0.5fr 1fr 1fr 1.5fr 1fr;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        text-align: left;
+}
+
+#about-faq  h2
+{
+        text-align: center;  
+}
+
+td 
+{
+        text-align: left;
+        padding-right:20px;
+      
+}
