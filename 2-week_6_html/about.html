@@ -13,16 +13,15 @@
     <!-- Navbar  -->
     <nav>
         <!-- Container -->
-        <div>
-
+        <div id="header">
             <!-- Left side of the bar -->
-            <div>
+            <div class="header-left">
                 <h3><a href="index.html">Logo</a></h3>
             </div>
             <!-- End Left side of the navbar -->
 
             <!-- Right side of the bar -->
-            <div>
+            <div class="header-right">
                 <h4><a href="index.html">Home</a></h4>
                 <h4><a href="services.html">Services</a></h4>
                 <h4><a href="about.html">About Park</a></h4>
@@ -34,9 +33,7 @@
     </nav>
     <!-- End Navbar -->
 
-    <br>
 
-    <br>
 
     <main>
         <!-- Container -->
@@ -47,8 +44,7 @@
                 <div class="about-contact-info">
                     <!-- Make the image stick to top  half -->
                     <div>
-                        <img src="images/address_info.png" alt="image" class="about-contact-image" width="215"
-                            height="200">
+                        <img src="images/address_info.png" alt="image" class="about-contact-image">
                     </div>
 
                     <!-- Make the content stick to bottom half -->
@@ -59,7 +55,6 @@
                             Irvine, California
                         </address>
                     </div>
-
                 </div>
                 <!-- Address General Info -->
 
@@ -68,8 +63,7 @@
                 <div class="about-contact-info">
                     <!-- Make the image stick to top  half -->
                     <div>
-                        <img src="images/phone_info.png" alt="image" class="about-contact-image" width="215"
-                            height="200">
+                        <img src="images/phone_info.png" alt="image" class="about-contact-image">
                     </div>
 
                     <!-- Make the content stick to bottom half -->
@@ -78,7 +72,6 @@
                         <a href="tel:+1949300856">+1 949-300-856</a> <br>
                         <a href="tel:+17144709621">+1 714-470-9621</a>
                     </div>
-
                 </div>
                 <!-- End Phone General Info -->
 
@@ -87,8 +80,7 @@
                 <div class="about-contact-info">
                     <!-- Make the image stick to top  half -->
                     <div>
-                        <img src="images/email_info.png" alt="image" class="about-contact-image" width="215"
-                            height="200">
+                        <img src="images/email_info.png" alt="image" class="about-contact-image">
                     </div>
 
                     <!-- Make the content stick to bottom half -->
@@ -96,7 +88,6 @@
                         <h3 class="primary-text">Email Enquiries </h3>
                         <a href="mailto:email@website.com">email@website.com</a>
                     </div>
-
                 </div>
                 <!-- End Email General Info -->
 
@@ -104,8 +95,7 @@
                 <div class="about-contact-info">
                     <!-- Make the image stick to top  half -->
                     <div>
-                        <img src="images/live_chat_info.png" alt="image" class="about-contact-image" width="215"
-                            height="200">
+                        <img src="images/live_chat_info.png" alt="image" class="about-contact-image">
                     </div>
 
                     <!-- Make the content stick to bottom half -->
@@ -113,21 +103,18 @@
                         <h3 class="primary-text">Live Chat</h3>
                         <a href="https://wa.me/+17144709621">+1 714-470-9621</a>
                     </div>
-
                 </div>
                 <!-- End Chat General Info -->
-
             </section>
             <!-- End Section -->
-            <br>
 
-            <br>
+
             <!-- Park Map Section -->
             <section id="map">
-                <img src="images/park_map.png" alt="Park Map"  usemap="#parkMap">
+                <img src="images/park_map.png" alt="Park Map" usemap="#parkMap">
                 <map name="parkMap">
                     <!-- point 10 -->
-                    <area shape="circle" coords="210,98,20" alt="Link" href="#">
+                    <area shape="circle" coords="210,98,20" alt="Link" href="#"> 
                     <!-- point 9 -->
                     <area shape="circle" coords="136,273,20" alt="Link" href="#">
                     <!-- point 8 -->
@@ -145,16 +132,11 @@
                     <!-- point 2 -->
                     <area shape="circle" coords="722,388,20" alt="Link" href="#">
                     <!-- point 1 -->
-                    <area shape="circle" coords="666,483,20" alt="Link" href="#">
-
-
+                    <area shape="circle" coords="846,716,22" alt="Link" href="#about-extra">
                 </map>
             </section>
             <!-- End Map Section -->
 
-            <br>
-
-            <br>
 
             <!--Extra Info Section -->
             <section id="about-extra">
@@ -167,7 +149,7 @@
                             <img src="images/accessibility_info.jpg" alt="Accessibility information">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
-                        <div>
+                        <div class="text">
                             <h3 class="primary-text">Accessibility</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
@@ -177,13 +159,13 @@
                     <!-- End Accessibility Info Div -->
 
                     <!--Directions & Parking Info Div -->
-                    <div id="directions">
+                    <div class="directions">
                         <!-- Stick the image to the top half of the container -->
                         <div>
                             <img src="images/parking_info.jpg" alt="Directions & Parking">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
-                        <div>
+                        <div class="text">
                             <h3 class="primary-text">Directions & Parking</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
@@ -203,7 +185,7 @@
                             <img src="images/medical_care_info.png" alt="Medical Care Information">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
-                        <div>
+                        <div class="text">
                             <h3 class="primary-text">Medical Care</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
@@ -212,7 +194,6 @@
                     </div>
                     <!-- End Medical Care Info Div -->
 
-
                     <!--Money Services Info Div -->
                     <div>
                         <!-- Stick the image to the top half of the container -->
@@ -220,7 +201,7 @@
                             <img src="images/money_services_info.png" alt="Money Services Information">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
-                        <div>
+                        <div class="text">
                             <h3 class="primary-text">Money Services</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
@@ -228,56 +209,52 @@
                         </div>
                     </div>
                     <!-- End Money Services Info Div -->
-
                 </div>
                 <!-- End Row -->
             </section>
             <!--End Extra Info Section -->
 
-            <br>
 
-            <br>
             <!--Review Section  -->
             <section id="about-reviews">
                 <h2 class="primary-text">Reviews</h2>
                 <!-- Row -->
                 <div class="about-reviews-row-one">
                     <!-- Review 1 -->
-                    <div>
+                    <div class="review">
                         <img src="images/User (1).png" alt="User 1 image">
                         
-                        <h3>John Doe</h3>
-                        <h4>4.8 / 5</h4>
-                        <p>The most magical place in the world. Have the best  time here, staff were very friendly.  The rides were really fun.</p>
+                        <h3 class="review-part">John Doe</h3>
+                        <h4 class="review-part">4.8 / 5</h4>
+                        <p class="review-part">The most magical place in the world. Have the best  time here, staff were very friendly.</p>
                     </div>
                     <!-- End Review 1 -->
 
                     <!-- Review 2 -->
-                    <div>
+                    <div class="review">
                         <img src="images/User (2).png" alt="User 2 image">
-
-                        <h3>John Doe</h3>
-                        <h4>4.8 / 5</h4>
+                        <h3 class="review-part">John Doe</h3>
+                        <h4 class="review-part">4.8 / 5</h4>
                         <p>My family and I have already gone twice now.  Both times we had wonderful and amazing experiences.  People, food and the all around atmosphere are the best.  We cant wait to plan our next trip. I highly recommend it.</p>
                     </div>
                     <!-- End Review 2 -->
                 </div>
                 <!-- End Row -->
+
                 <!-- Row -->
                 <div class="about-reviews-row-two">
                     <!-- Review 3 -->
-                    <div>
+                    <div class="review">
                         <img src="images/User (3).png" alt="User 3 image">
-
                         <h3>John Doe</h3>
                         <h4>4.8 / 5</h4>
                         <p>An absolutely wonderful experience! I’ve been numerous times but I can’t describe how much fun this park is. The entertainment is wonderful the food is good & the shows are even better. </p>
                     </div>
                     <!-- End Review 3 -->
-                    <!-- Review 4 -->
-                    <div>
-                        <img src="images/User (4).png" alt="User 4 image">
 
+                    <!-- Review 4 -->
+                    <div class="review">
+                        <img src="images/User (4).png" alt="User 4 image">
                         <h3>John Doe</h3>
                         <h4>4.8 / 5</h4>
                         <p>A truly magical experience, I had so much fun visiting. </p>
@@ -285,27 +262,24 @@
                     <!-- End Review 4 -->
                 </div>
                 <!-- End Row -->
-
             </section>
             <!-- End Review Section -->
 
-            <br>
 
-            <br>
             <!-- FAQ Section -->
             <section id="about-faq">
                 <h2 class="primary-text">FAQs</h2>
                 <!-- FAQ 1 -->
                 <div>
                     <h3>Q: Where are you located?</h3>
-                    <p>For directions, <a href="#directions">Click Here</a></p>
+                    <p>For directions, <a href="#about-extra">Click Here</a></p>
                 </div>
                 <!-- End FAQ 1 -->
 
                 <!-- FAQ 2 -->
                 <div>
                     <h3>Q: How much is parking?</h3>
-                    <p>For Parking information, <a href="#directions">Click Here</a></p>
+                    <p>For Parking information, <a href="#about-extra">Click Here</a></p>
                 </div>
                 <!-- End FAQ 2 -->
 
@@ -314,18 +288,9 @@
                     <h3>Q: What hours are you open?</h3>
                     <!-- Opening Hours Table -->
                     <table>
-                        <tr>
-                            <td> Sunday through Thursday</td>
-                            <td>11:00 - 23:00</td>
-                        </tr>
-                        <tr>
-                            <td> Friday and Saturday</td>
-                            <td>09:00 - 01:00</td>
-                        </tr>
-                        <tr>
-                            <td>Holidays</td>
-                            <td>09:00 - 23:00</td>
-                        </tr>
+                        <tr><th>Monday through Thursday</th><td>11:00 - 23:00</td></tr>
+                        <tr><th>Friday and Saturday</th><td>09:00 - 01:00</td></tr>
+                        <tr><th>Sundays and Holidays</th><td>09:00 - 23:00</td></tr>
                     </table>
                     <!-- End Opening Hours Table -->
                 </div>
@@ -336,26 +301,22 @@
                     <h3>Q: What’s the minimum age for a child to be in the park without supervision?</h3>
                     <p>We recommend that all guest below the age of 14 have a supervising companion that is 14 years of
                         age or older and meets all other attraction requirements.</p>
-
                 </div>
                 <!-- End FAQ 4 -->
-
             </section>
             <!-- End FAQ Section -->
         </div>
         <!-- End Container -->
     </main>
     <!-- End Main -->
-    <br>
-    <hr>
-    <br>
+
 
     <!-- Footer -->
-    <footer id="footer">
+    <footer>
         <!-- Container-->
-        <div>
+        <div id="footer">
             <!-- Main Pages links -->
-            <div>
+            <div class="footer-main-links">
                 <a href="#">Home</a>
                 <a href="#">Services</a>
                 <a href="#">About Park</a>
@@ -363,7 +324,7 @@
             <!-- End Main Pages links -->
 
             <!-- Legal Pages links -->
-            <div>
+            <div class="footer-legal-links">
                 <a href="#">Terms & Conditions</a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Cookies</a>
@@ -372,14 +333,13 @@
 
             <!-- Newsletter Form -->
             <div>
-                <form>
+                <form class="footer-newsletter">
                     <label for="input-email">Sign up to get the latest offers</label>
                     <input type="email" name="email" id="input-email" placeholder="example@website.com">
                 </form>
             </div>
             <!-- End Newsletter Form -->
         </div>
-
     </footer>
     <!-- End Footer -->
 </body>
