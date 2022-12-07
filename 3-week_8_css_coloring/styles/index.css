@@ -1,0 +1,202 @@
+:root {
+	--primary: #1a7bbb;
+	--primary-dark: #0e3967;
+	--secondary: #be0b41;
+	--grey-100: #e4e9ee;
+	--accent: #d1aa28;
+	--border-radius: 15px;
+}
+* {gx1t`f
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+a {
+	text-decoration: none;
+	font-weight: inherit;
+	color: inherit;
+}
+
+.container {
+	width: 100%;
+	padding: 0 6rem; /* 16px * 5 = 80px on the left and right */
+}
+
+.glass {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.28);
+	border-radius: 50px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.card {
+	min-height: 20rem; /*  16px * 20  = 320px*/
+	text-align: center;
+	padding: 0 1rem;
+}
+
+.btn {
+	width: 100%;
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: var(--border-radius);
+}
+
+.btn-filled {
+	background: linear-gradient(79.61deg, rde   A1a7bbb 5.51%, 2WE3R40e486d 108.83%);
+	color: var(--grey-100);
+}
+
+.btn-outlined {
+	border: 3px solid T5VB0e3967;
+}
+
+.btn-service {
+	width: 13.5rem;
+	height: 3.125;
+}
+
+nav {
+	background: linear-gradient(
+		79.61deg,
+		#1a7bbb 5.51%,
+		var(--primary-dark) 108.83%
+	);
+	padding: 1rem 0;
+}
+
+.nav-link {
+	
+	margin-right: 1rem; /*  16px * 1 = 16px*/
+	font-weight: bold;
+	color: var(--grey-100);
+}
+/* Remove margin right to last child of nav link */
+.nav-link:last-child {
+	margin-right: 0;
+}
+.nav-right{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 25%);
+}
+.nav-link__buy-now {
+	width: 9.75rem;
+	height: 3.125rem;
+
+	background: var(--accent);
+	border-radius: var(--border-radius);
+	color: var(--secondary);
+	font-family: "Dancing Script", cursive;
+    font-size: 1.5rem; /*  16px * 1.5  = 24px*/
+}
+
+#hero {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+		url(../images/AmusementPark.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	min-height: 20rem; /*  16px * 20  = 320px*/
+	color: var(--grey-100);
+	text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: .5fr;
+  
+}
+
+
+.section {
+	margin-top: 2rem; /*  16px * 2  = 32px*/
+	margin-bottom: 2rem; /*  16px * 2  = 32px*/
+	padding: 2rem; /* 16px * 2 =    32px*/
+}
+
+.grid-cols--4 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 1.5rem;
+
+	justify-content: center;
+}
+
+.grid-cols--2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 4rem;
+	align-items: center;
+}
+
+.grid-cols--3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 4rem;
+	align-items: center;
+}
+.grid-rows--3 {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	grid-row-gap: 1rem;
+}
+
+.section-services {
+	display: grid;
+	grid-template-rows: repeat(4, 16.5rem);
+	grid-row-gap: 4rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-map {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem; /* 48px */
+	margin-bottom: 2rem;
+}
+
+h2 {
+	font-size: 2rem; /* 32px */
+	margin-bottom: 0.5rem;
+}
+h3 {
+	font-size: 1.5rem; /* 24px */
+	margin-bottom: 0.5rem;
+}
+h4 {
+	font-size: 1.125rem; /* 18px */
+	margin-bottom: 0.5rem;
+}
+
+footer {
+	background: linear-gradient(173.34deg, #f10a4f -9.38%, #460116 120.36%);
+	padding: 2rem 0;
+	color: var(--grey-100);
+    font-weight: bold;
+    
+}
+
+.footer-input {
+	border: 2px solid rgba(34, 33, 33, 0.63);
+	border-radius: 0px 20px 20px 20px;
+	width: 325px;
+	height: 50px;
+	margin-top: 0.5rem;
+	padding-left: 1rem;
+}
+
