@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@400;600;700&display=swap");
+
 /* variables */
 :root {
 	--primary: #1a7bbb;
@@ -204,7 +206,7 @@ nav {
 }
 
 /* text properties */
-.text-center{
+.text-center {
 	text-align: center;
 }
 
