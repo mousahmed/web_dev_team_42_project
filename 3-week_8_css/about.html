@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Downloading fonts from google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/about.css">
+
     <title>About | Theme Park</title>
 </head>
 
@@ -12,20 +20,20 @@
     <!-- Navbar  -->
     <nav>
         <!-- Container -->
-        <div>
+        <div class="container grid-cols--2">
 
             <!-- Left side of the bar -->
             <div>
-                <h3><a href="index.html">Logo</a></h3>
+                <h3><a href="index.html" class="nav-link ">Logo</a></h3>
             </div>
             <!-- End Left side of the navbar -->
 
             <!-- Right side of the bar -->
-            <div>
-                <h4><a href="index.html">Home</a></h4>
-                <h4><a href="services.html">Services</a></h4>
-                <h4><a href="about.html">About Park</a></h4>
-                <Button>Buy Now</Button>
+            <div class="nav-right">
+                <a href="index.html" class=" nav-link ">Home</a>
+                <a href="services.html" class=" nav-link">Services</a>
+                <a href="about.html" class=" nav-link">About Park</a>
+                <a href="services.html" class="btn nav-link nav-link__buy-now ">Buy Now</a>
             </div>
             <!-- End Right side of the navbar -->
         </div>
@@ -33,17 +41,13 @@
     </nav>
     <!-- End Navbar -->
 
-    <br>
-    <hr>
-    <br>
-
     <main>
         <!-- Container -->
-        <div>
+        <div class="container">
             <!-- General Info Section -->
-            <section id="about-contact">
+            <section id="about-contact" class="section glass grid-cols--4">
                 <!-- Address General Info -->
-                <div class="about-contact-info">
+                <div class="card card-rows--2 ">
                     <!-- Make the image stick to top  half -->
                     <div>
                         <img src="images/address_info.png" alt="image" class="about-contact-image" width="215"
@@ -52,10 +56,10 @@
 
                     <!-- Make the content stick to bottom half -->
                     <div>
-                        <h3>Address</h3>
+                        <h3 class="mb-1">Address</h3>
                         <address id="about-address">
-                            4832 Liberty Avenue<br>
-                            Irvine<br>
+                            4832 Liberty Avenue
+                            Irvine
                             California
                         </address>
                     </div>
@@ -65,17 +69,18 @@
 
 
                 <!-- Phone General Info -->
-                <div class="about-contact-info">
+                <div class="card card-rows--2 ">
                     <!-- Make the image stick to top  half -->
                     <div>
-                        <img src="images/phone_info.jpg" alt="image" class="about-contact-image" width="215"
+                        <img src="images/phone_info.png" alt="image" class="about-contact-image" width="215"
                             height="200">
                     </div>
 
                     <!-- Make the content stick to bottom half -->
                     <div>
-                        <h3>Phone Numbers</h3>
-                        <a href="tel:+1949300856">+1 949-300-856</a> <br>
+                        <h3 class="mb-1">Phone Numbers</h3>
+                        <a href="tel:+1949300856">+1 949-300-856</a>
+                        <br>
                         <a href="tel:+17144709621">+1 714-470-9621</a>
                     </div>
 
@@ -84,7 +89,7 @@
 
 
                 <!-- Email General Info -->
-                <div class="about-contact-info">
+                <div class="card card-rows--2 ">
                     <!-- Make the image stick to top  half -->
                     <div>
                         <img src="images/email_info.png" alt="image" class="about-contact-image" width="215"
@@ -93,7 +98,7 @@
 
                     <!-- Make the content stick to bottom half -->
                     <div>
-                        <h3>Email Enquiries </h3>
+                        <h3 class="mb-1">Email Enquiries </h3>
                         <a href="mailto:email@website.com">email@website.com</a>
                     </div>
 
@@ -101,7 +106,7 @@
                 <!-- End Email General Info -->
 
                 <!-- Chat General Info -->
-                <div class="about-contact-info">
+                <div class="card card-rows--2">
                     <!-- Make the image stick to top  half -->
                     <div>
                         <img src="images/live_chat_info.png" alt="image" class="about-contact-image" width="215"
@@ -110,7 +115,7 @@
 
                     <!-- Make the content stick to bottom half -->
                     <div>
-                        <h3>Live Chat</h3>
+                        <h3 class="mb-1">Live Chat</h3>
                         <a href="https://wa.me/+17144709621">+1 714-470-9621</a>
                     </div>
 
@@ -119,11 +124,9 @@
 
             </section>
             <!-- End Section -->
-            <br>
-            <hr>
-            <br>
+
             <!-- Park Map Section -->
-            <section id="map">
+            <section id="map" class="section section-map glass">
                 <h1>Park Map</h1>
                 <img src="images/park_map.png" alt="Park Map" width="950" height="518" usemap="#parkMap">
                 <map name="parkMap">
@@ -153,23 +156,21 @@
             </section>
             <!-- End Map Section -->
 
-            <br>
-            <hr>
-            <br>
+
 
             <!--Extra Info Section -->
-            <section id="about-extra">
+            <section id="about-extra" class="section glass grid-rows--2">
                 <!-- Row -->
-                <div>
+                <div class="grid-cols--2">
                     <!--Directions & Parking Info Div -->
-                    <div>
+                    <div class="card card-rows--2">
                         <!-- Stick the image to the top half of the container -->
                         <div>
                             <img src="images/parking_info.jpg" alt="Directions & Parking" width="460" height="264">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
                         <div>
-                            <h3>Directions & Parking</h3>
+                            <h3 class="mb-1">Directions & Parking</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
                             </p>
@@ -179,7 +180,7 @@
 
 
                     <!--Accessibility Info Div -->
-                    <div>
+                    <div class="card card-rows--2">
                         <!-- Stick the image to the top half of the container -->
                         <div>
                             <img src="images/accessibility_info.jpg" alt="Directions & Parking" width="460"
@@ -187,7 +188,7 @@
                         </div>
                         <!-- Stick the text to bottom half of the container -->
                         <div>
-                            <h3>Accessibility</h3>
+                            <h3 class="mb-1">Accessibility</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
                             </p>
@@ -198,16 +199,16 @@
                 <!-- End Row -->
 
                 <!-- Row -->
-                <div>
+                <div class="grid-cols--2">
                     <!--Medical Care Info Div -->
-                    <div>
+                    <div class="card card-rows--2">
                         <!-- Stick the image to the top half of the container -->
                         <div>
                             <img src="images/medical_care_info.png" alt="Directions & Parking" width="460" height="264">
                         </div>
                         <!-- Stick the text to bottom half of the container -->
                         <div>
-                            <h3>Medical Care</h3>
+                            <h3 class="mb-1">Medical Care</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
                             </p>
@@ -217,7 +218,7 @@
 
 
                     <!--Money Services Info Div -->
-                    <div>
+                    <div class="card card-rows--2">
                         <!-- Stick the image to the top half of the container -->
                         <div>
                             <img src="images/money_services_info.png" alt="Directions & Parking" width="460"
@@ -225,7 +226,7 @@
                         </div>
                         <!-- Stick the text to bottom half of the container -->
                         <div>
-                            <h3>Money Services</h3>
+                            <h3 class="mb-1">Money Services</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
                                 voluptates.
                             </p>
@@ -238,20 +239,17 @@
             </section>
             <!--End Extra Info Section -->
 
-            <br>
-            <hr>
-            <br>
             <!--Review Section  -->
-            <section id="about-reviews">
-                <h2>Reviews</h2>
+            <section id="about-reviews" class="section glass section-reviews">
+                <h1>Reviews</h1>
                 <!-- Row -->
-                <div>
+                <div class="grid-cols--2">
                     <!-- Review 1 -->
-                    <div>
-                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+                    <div class="card">
+                        <img class="mb-1" src="images/review_1.png" alt="Rating 1 - 4 Stars" width="80" height="80">
 
-                        <h3>John Doe</h3>
-                        <h4>4.8 / 5</h4>
+                        <h3 class="mb-1">John Doe</h3>
+                        <h4 class="mb-1">4.8 / 5</h4>
                         <p>The most magical place in the world. Have the best <br> time here, staff were very friendly.
                             The
                             rides were really fun.</p>
@@ -259,11 +257,11 @@
                     <!-- End Review 1 -->
 
                     <!-- Review 2 -->
-                    <div>
-                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+                    <div class="card">
+                        <img class="mb-1" src="images/review_2.png" alt="Rating 1 - 4 Stars" width="80" height="80">
 
-                        <h3>John Doe</h3>
-                        <h4>4.8 / 5</h4>
+                        <h3 class="mb-1">John Doe</h3>
+                        <h4 class="mb-1">4.8 / 5</h4>
                         <p>My family and I have already gone twice now. <br> Both times we had wonderful and amazing
                             experiences. <br> People, food and the all around atmosphere are the best. <br> We cant wait
                             to
@@ -274,13 +272,13 @@
                 </div>
                 <!-- End Row -->
                 <!-- Row -->
-                <div>
+                <div class="grid-cols--2">
                     <!-- Review 3 -->
-                    <div>
-                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+                    <div class="card">
+                        <img class="mb-1" src="images/review_3.png" alt="Rating 1 - 4 Stars" width="80" height="80">
 
-                        <h3>John Doe</h3>
-                        <h4>4.8 / 5</h4>
+                        <h3 class="mb-1">John Doe</h3>
+                        <h4 class="mb-1">4.8 / 5</h4>
                         <p>An absolutely wonderful experience! I’ve been <br> numerous times in the past but I can’t
                             describe
                             how <br> much fun this park is. The entertainment is wonderful <br> the food is good and the
@@ -289,53 +287,67 @@
                     </div>
                     <!-- End Review 3 -->
                     <!-- Review 4 -->
-                    <div>
-                        <img src="https://via.placeholder.com/80" alt="Rating 1 - 4 Stars" width="80" height="80">
+                    <div class="card card-review ">
 
-                        <h3>John Doe</h3>
-                        <h4>4.8 / 5</h4>
+                        <img class="mb-1" src="images/review_4.png" alt="Rating 1 - 4 Stars" width="80" height="80">
+
+                        <h3 class="mb-1">John Doe</h3>
+                        <h4 class="mb-1">4.8 / 5</h4>
                         <p>A truly magical experience, I had so much fun visiting. </p>
                     </div>
-                    <!-- End Review 4 --> 
+                    <!-- End Review 4 -->
                 </div>
                 <!-- End Row -->
 
             </section>
             <!-- End Review Section -->
 
-            <br>
-            <hr>
-            <br>
+
             <!-- FAQ Section -->
-            <section id="about-faq">
-                <h2>FAQs</h2>
+            <section id="about-faq" class="section glass ">
+                <h1 class="text-center">FAQs</h1>
                 <!-- FAQ 1 -->
-                <div>
-                    <h3>Where are you located?</h3>
-                    <p>For directions, <a href="about.html">Click Here</a></p>
+                <div class="mb-2">
+                    <h3 class="mb-1">Where are you located?</h3>
+                    <p>For directions, <a href="#about-extra">Click Here</a></p>
 
                 </div>
                 <!-- End FAQ 1 -->
 
                 <!-- FAQ 2 -->
-                <div>
-                    <h3>How much is parking? Where do I park?</h3>
-                    <p>For Parking information, <a href="about.html">Click Here</a></p>
+                <div class="mb-2">
+                    <h3 class="mb-1">How much is parking? Where do I park?</h4>
+                    <p>For Parking information, <a href="#about-extra">Click Here</a></p>
 
                 </div>
                 <!-- End FAQ 2 -->
 
                 <!-- FAQ 3 -->
-                <div>
-                    <h3>What hours are you open?</h3>
-                    <p>For Hours of operation, <a href="index.html">Click Here</a></p>
+                <div class="mb-2">
+                    <h3 class="mb-1">What hours are you open?</h3>
+                    <!-- Opening Hours Table -->
+                    <table>
+                        <tr>
+                            <th>Monday through Thursday</th>
+                            <td>11:00 - 23:00</td>
+                        </tr>
+                        <tr>
+                            <th>Friday and Saturday</th>
+                            <td>09:00 - 01:00</td>
+                        </tr>
+                        <tr>
+                            <th>Sundays and Holidays</th>
+                            <td>09:00 - 23:00</td>
+                        </tr>
+                    </table>
+                    <!-- End Opening Hours Table -->
 
                 </div>
                 <!-- End FAQ 3 -->
 
                 <!-- FAQ 4 -->
                 <div>
-                    <h3>What’s the minimum age for a child to be in the park without supervision?</h3>
+                    <h3 class="mb-1">What’s the minimum age for a child to be in the park without supervision?</h3>
                     <p>We recommend that all guest below the age of 14 have a supervising companion that is 14 years of
                         age
                         or older and meets all other attraction ridership requirements.</p>
@@ -349,27 +361,24 @@
         <!-- End Container -->
     </main>
     <!-- End Main -->
-    <br>
-    <hr>
-    <br>
-
+   
     <!-- Footer -->
     <footer id="footer">
         <!-- Container-->
-        <div>
+        <div class="container grid-cols--3">
             <!-- Main Pages links -->
-            <div>
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">About Park</a>
+            <div class="grid-rows--3">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About Park</a>
             </div>
             <!-- End Main Pages links -->
 
             <!-- Legal Pages links -->
-            <div>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Privacy Policy</a>
+            <div class="grid-rows--3">
                 <a href="#">Cookies</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
             </div>
             <!-- End Legal Pages links -->
 
@@ -377,7 +386,8 @@
             <div>
                 <form>
                     <label for="input-email">Sign up to get the latest offers</label>
-                    <input type="email" name="email" id="input-email" placeholder="example@website.com">
+                    <input type="email" name="email" id="input-email" placeholder="example@website.com"
+                        class="footer-input">
                 </form>
             </div>
             <!-- End Newsletter Form -->

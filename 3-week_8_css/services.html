@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Downloading fonts from google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/services.css">
+
     <title>Services | Theme Park</title>
 </head>
 
@@ -12,20 +20,20 @@
     <!-- Navbar  -->
     <nav>
         <!-- Container -->
-        <div>
+        <div class="container grid-cols--2">
 
             <!-- Left side of the bar -->
             <div>
-                <h3><a href="index.html">Logo</a></h3>
+                <h3><a href="index.html" class="nav-link ">Logo</a></h3>
             </div>
             <!-- End Left side of the navbar -->
 
             <!-- Right side of the bar -->
-            <div>
-                <h4><a href="index.html">Home</a></h4>
-                <h4><a href="services.html">Services</a></h4>
-                <h4><a href="about.html">About Park</a></h4>
-                <Button>Buy Now</Button>
+            <div class="nav-right">
+                <a href="index.html" class=" nav-link ">Home</a>
+                <a href="services.html" class=" nav-link">Services</a>
+                <a href="about.html" class=" nav-link">About Park</a>
+                <a href="services.html" class="btn nav-link nav-link__buy-now ">Buy Now</a>
             </div>
             <!-- End Right side of the navbar -->
         </div>
@@ -33,15 +41,12 @@
     </nav>
     <!-- End Navbar -->
 
-    <br>
-    <hr>
-    <br>
 
     <main>
         <!-- Container Div -->
-        <div id="services-tickets">
-            <!-- Ticket Form div-->
-            <div>
+        <div class="container">
+            <!-- Ticket Form Section-->
+            <section id="services-tickets " class="section glass">
                 <!--Title for ticket purchasing section-->
                 <h1>
                     Tickets
@@ -86,25 +91,21 @@
                     <!--End fieldset-->
                 </form>
                 <!--End form-->
-            </div>
-            <!-- End Ticket Form div -->
+            </section>
+            <!-- End Ticket Form Section -->
 
 
             <!--Line break-->
-            <br>
-            <hr>
-            <br>
 
-
-            <!--Attractions Div-->
-            <div id="services-attractions">
+            <!--Attractions Section-->
+            <section id="services-attractions" class="section glass section-attractions">
                 <!--Title for attractions section-->
                 <h1>
                     Attractions
                 </h1>
 
                 <!-- Row -->
-                <div>
+                <div class="grid-cols--4">
                     <!-- Attraction Item-->
                     <div>
                         <!-- Attraction item img container to make fixed on the top -->
@@ -209,7 +210,7 @@
                 <!-- End Row -->
 
                 <!-- Row -->
-                <div>
+                <div class="grid-cols--4">
                     <!-- Attraction Item-->
                     <div>
                         <!-- Attraction item img container to make fixed on the top -->
@@ -313,25 +314,22 @@
                 </div>
                 <!-- End Row -->
 
-            </div>
-            <!--Attractions Div-->
+            </section>
+            <!--Attractions Section-->
 
             <!--Line break-->
-            <br>
-            <hr>
-            <br>
+            
 
 
-
-            <!--Food div-->
-            <div id="services-food">
+            <!--Food Section-->
+            <section id="services-food" class="section glass section-food">
                 <!--Title for food section-->
                 <h1>
                     Food
                 </h1>
 
                 <!-- Row -->
-                <div>
+                <div class="grid-cols--4">
                     <!-- Sandwiches Item-->
                     <div>
                         <!-- Sandwiches item img container to make fixed on the top -->
@@ -405,18 +403,15 @@
                 </div>
                 <!-- End Row -->
 
-            </div>
-            <!--End Food div-->
+            </section>
+            <!--End Food Section-->
 
             <!--Line break-->
-            <br>
-            <hr>
-            <br>
+           
 
 
-
-            <!--Accommodations-->
-            <div id="services-accommodations">
+            <!--Accommodations Section-->
+            <section id="services-accommodations" class="section glass">
                 <!--Title for accommodations-->
                 <h1>
                     Accommodations
@@ -438,7 +433,7 @@
                         </p>
 
 
-                        <a href="#">Bye Now</a>
+                        <a href="#" > Bye Now</a>
 
                     </div>
 
@@ -470,46 +465,46 @@
 
 
             </div>
-            <!--End Accommodations div-->
+            <!--End Accommodations Section-->
 
         </div>
         <!-- End Container div -->
     </main>
     <!--Line break-->
-    <br>
-    <hr>
-    <br>
 
-    <!--Footer-->
+    <!-- Footer -->
     <footer id="footer">
-        <!--Container-->
-        <div>
-            <div>
+        <!-- Container-->
+        <div class="container grid-cols--3">
+            <!-- Main Pages links -->
+            <div class="grid-rows--3">
                 <a href="index.html">Home</a>
                 <a href="services.html">Services</a>
                 <a href="about.html">About Park</a>
             </div>
+            <!-- End Main Pages links -->
 
-            <div>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Privacy Policy</a>
+            <!-- Legal Pages links -->
+            <div class="grid-rows--3">
                 <a href="#">Cookies</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
             </div>
+            <!-- End Legal Pages links -->
 
-            <!--Newsletter Form-->
+            <!-- Newsletter Form -->
             <div>
-                <!--Form-->
                 <form>
                     <label for="input-email">Sign up to get the latest offers</label>
-                    <input type="email" name="email" id="input-email" placeholder="example@website.com">
+                    <input type="email" name="email" id="input-email" placeholder="example@website.com"
+                        class="footer-input">
                 </form>
-                <!--End form-->
             </div>
-            <!--End Newsletter Form-->
+            <!-- End Newsletter Form -->
         </div>
-        <!--End container-->
+
     </footer>
-    <!--End Footer-->
+    <!-- End Footer -->
 
 </body>
 <!--End body-->

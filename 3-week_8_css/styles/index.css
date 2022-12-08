@@ -76,16 +76,12 @@ h4 {
 }
 
 .btn-filled {
-	background: linear-gradient(
-		79.61deg,
-		rde A1a7bbb 5.51%,
-		2WE3R40e486d 108.83%
-	);
+	background: linear-gradient(79.61deg, #1a7bbb 5.51%, #0e486d 108.83%);
 	color: var(--grey-100);
 }
 
 .btn-outlined {
-	border: 3px solid T5VB0e3967;
+	border: 3px solid #0e3967;
 }
 
 .btn-service {
@@ -181,7 +177,34 @@ nav {
 	grid-row-gap: 1rem;
 }
 
+.grid-rows--2 {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr;
+	grid-row-gap: 1rem;
+}
+
+.card-rows--2 {
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+	grid-template-columns: 1fr;
+	grid-row-gap: 1rem;
+}
+
 .section-map {
+	text-align: center;
+}
+
+/* Margins */
+.mb-1 {
+	margin-bottom: 1rem; /*16px */
+}
+.mb-2 {
+	margin-bottom: 1.5rem; /*32px */
+}
+
+/* text properties */
+.text-center{
 	text-align: center;
 }
 
