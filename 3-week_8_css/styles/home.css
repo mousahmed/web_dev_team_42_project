@@ -1,0 +1,29 @@
+@import url(index.css);
+
+#hero {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+		url(../images/AmusementPark.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	min-height: 20rem; /*  16px * 20  = 320px*/
+	color: var(--grey-100);
+	text-align: center;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: 0.5fr;
+}
+
+/* Layout for the services section */
+
+
+.section-services {
+	display: grid;
+	grid-template-rows: repeat(4, 16.5rem);
+	grid-row-gap: 4rem;
+	align-items: center;
+	justify-content: center;
+}
+
