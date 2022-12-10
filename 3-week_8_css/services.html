@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Downloading fonts from google fonts CDN -->
-    
+
     <link rel="stylesheet" href="styles/services.css">
 
     <title>Services | Theme Park</title>
@@ -44,33 +44,34 @@
             <!-- Ticket Form Section-->
             <section id="services-tickets " class="section glass">
                 <!--Title for ticket purchasing section-->
-                <h1>
-                    Tickets
-                </h1>
+
                 <!--Form-->
                 <form>
-                    <!--Fieldset-->
-                    <fieldset>
+                    <!--Ticket container-->
+                    <div class="grid-rows--3 text-center px-2 pt-2 ticket-container">
+                        <h1>
+                            Tickets
+                        </h1>
                         <!-- Row -->
-                        <div>
+                        <div class="grid-cols--3 mb-2 ">
                             <!--Input group for name-->
                             <div>
-                                <label for="name">Name</label><br>
-                                <input type="text" id="name" name="name"><br><br>
+                                <label class="tickets-label mb-1" for="name">Name</label>
+                                <input class="tickets-input" type="text" id="name" name="name">
                             </div>
                             <!--End Input group for name-->
 
                             <!--Input group for date-->
                             <div>
-                                <label for="date">Date</label><br>
-                                <input type="date" id="date" name="date"><br><br>
+                                <label class="tickets-label mb-1" for="date">Date</label>
+                                <input class="tickets-input" type="date" id="date" name="date">
                             </div>
                             <!--End Input group for date-->
 
                             <!--Input group for ticket number -->
                             <div>
-                                <label for="numberOfTickets">No. of Tickets</label><br>
-                                <input type="text" id="numberOfTickets" name="numberOfTickets"><br><br>
+                                <label class="tickets-label mb-1" for="numberOfTickets">No. of Tickets</label>
+                                <input class="tickets-input" type="number" id="numberOfTickets" name="numberOfTickets">
                             </div>
                             <!--End Input group for ticket number-->
 
@@ -79,11 +80,11 @@
                         <!-- Row -->
                         <div>
                             <!--Data cell for submit button-->
-                            <button type="submit">Submit</button>
+                            <button type="submit" class="btn btn-outlined btn-tickets">Purchase </button>
 
                         </div>
                         <!-- End Row -->
-                    </fieldset>
+                    </div>
                     <!--End fieldset-->
                 </form>
                 <!--End form-->
@@ -103,7 +104,7 @@
                 <!-- Row -->
                 <div class="grid-cols--4">
                     <!-- Attraction Item-->
-                    <div>
+                    <div class="card grid-rows--3 glass">
                         <!-- Attraction item img container to make fixed on the top -->
                         <div>
                             <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
@@ -120,7 +121,7 @@
                         <!-- Attraction Regulation text container to make fixed at bottom -->
                         <div>
                             <h3>Regulations</h3>
-                            <ul>
+                            <ul class="list-regulations">
                                 <li>xx cm - xx ft</li>
                                 <li>xx kg - xx lbs</li>
                             </ul>
@@ -128,7 +129,7 @@
                     </div>
                     <!-- End Attraction Item -->
                     <!-- Attraction Item-->
-                    <div>
+                    <div class="card grid-rows--3 glass">
                         <!-- Attraction item img container to make fixed on the top -->
                         <div>
                             <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
@@ -145,7 +146,7 @@
                         <!-- Attraction Regulation text container to make fixed at bottom -->
                         <div>
                             <h3>Regulations</h3>
-                            <ul>
+                            <ul class="list-regulations">
                                 <li>xx cm - xx ft</li>
                                 <li>xx kg - xx lbs</li>
                             </ul>
@@ -153,7 +154,7 @@
                     </div>
                     <!-- End Attraction Item -->
                     <!-- Attraction Item-->
-                    <div>
+                    <div class="card grid-rows--3 glass">
                         <!-- Attraction item img container to make fixed on the top -->
                         <div>
                             <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
@@ -170,7 +171,7 @@
                         <!-- Attraction Regulation text container to make fixed at bottom -->
                         <div>
                             <h3>Regulations</h3>
-                            <ul>
+                            <ul class="list-regulations">
                                 <li>xx cm - xx ft</li>
                                 <li>xx kg - xx lbs</li>
                             </ul>
@@ -178,7 +179,7 @@
                     </div>
                     <!-- End Attraction Item -->
                     <!-- Attraction Item-->
-                    <div>
+                    <div class="card grid-rows--3 glass">
                         <!-- Attraction item img container to make fixed on the top -->
                         <div>
                             <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
@@ -195,7 +196,7 @@
                         <!-- Attraction Regulation text container to make fixed at bottom -->
                         <div>
                             <h3>Regulations</h3>
-                            <ul>
+                            <ul class="list-regulations">
                                 <li>xx cm - xx ft</li>
                                 <li>xx kg - xx lbs</li>
                             </ul>
@@ -206,9 +207,9 @@
                 <!-- End Row -->
 
                 <!-- Row -->
-                <div class="grid-cols--4">
+                <div class="grid-cols--4 mb-4">
                     <!-- Attraction Item-->
-                    <div>
+                    <div class="card grid-rows--3 glass">
                         <!-- Attraction item img container to make fixed on the top -->
                         <div>
                             <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
@@ -225,7 +226,7 @@
                         <!-- Attraction Regulation text container to make fixed at bottom -->
                         <div>
                             <h3>Regulations</h3>
-                            <ul>
+                            <ul class="list-regulations">
                                 <li>xx cm - xx ft</li>
                                 <li>xx kg - xx lbs</li>
                             </ul>
@@ -233,7 +234,7 @@
                     </div>
                     <!-- End Attraction Item -->
                     <!-- Attraction Item-->
-                    <div>
+                    <div class="card grid-rows--3 glass">
                         <!-- Attraction item img container to make fixed on the top -->
                         <div>
                             <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
@@ -250,7 +251,7 @@
                         <!-- Attraction Regulation text container to make fixed at bottom -->
                         <div>
                             <h3>Regulations</h3>
-                            <ul>
+                            <ul class="list-regulations">
                                 <li>xx cm - xx ft</li>
                                 <li>xx kg - xx lbs</li>
                             </ul>
@@ -258,7 +259,7 @@
                     </div>
                     <!-- End Attraction Item -->
                     <!-- Attraction Item-->
-                    <div>
+                    <div class="card grid-rows--3 glass">
                         <!-- Attraction item img container to make fixed on the top -->
                         <div>
                             <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
@@ -275,7 +276,7 @@
                         <!-- Attraction Regulation text container to make fixed at bottom -->
                         <div>
                             <h3>Regulations</h3>
-                            <ul>
+                            <ul class="list-regulations">
                                 <li>xx cm - xx ft</li>
                                 <li>xx kg - xx lbs</li>
                             </ul>
@@ -283,7 +284,7 @@
                     </div>
                     <!-- End Attraction Item -->
                     <!-- Attraction Item-->
-                    <div>
+                    <div class="card grid-rows--3 glass">
                         <!-- Attraction item img container to make fixed on the top -->
                         <div>
                             <img src="images/attraction.jpeg" alt="Roller Coaster Image" height="115" width="215">
@@ -300,7 +301,7 @@
                         <!-- Attraction Regulation text container to make fixed at bottom -->
                         <div>
                             <h3>Regulations</h3>
-                            <ul>
+                            <ul class="list-regulations">
                                 <li>xx cm - xx ft</li>
                                 <li>xx kg - xx lbs</li>
                             </ul>
@@ -314,7 +315,7 @@
             <!--Attractions Section-->
 
             <!--Line break-->
-            
+
 
 
             <!--Food Section-->
@@ -327,7 +328,7 @@
                 <!-- Row -->
                 <div class="grid-cols--4">
                     <!-- Sandwiches Item-->
-                    <div>
+                    <div class="card grid-rows--2 glass">
                         <!-- Sandwiches item img container to make fixed on the top -->
                         <div>
                             <img src="images/sandwiches_food.jpg" alt="Sandwich Image" height="115" width="215">
@@ -345,7 +346,7 @@
                     <!-- End Sandwiches Item -->
 
                     <!-- Pizza Item-->
-                    <div>
+                    <div class="card grid-rows--2 glass">
                         <!-- Pizza item img container to make fixed on the top -->
                         <div>
                             <img src="images/pizza_food.jpeg" alt="Pizza image" height="115" width="215">
@@ -362,7 +363,7 @@
                     </div>
                     <!-- End Pizza Item -->
                     <!-- BBQ Item-->
-                    <div>
+                    <div class="card grid-rows--2 glass">
                         <!-- BBQ item img container to make fixed on the top -->
                         <div>
                             <img src="images/bbq_food.png" alt="BBQ Image" height="115" width="215">
@@ -380,7 +381,7 @@
                     <!-- End BBQ Item -->
 
                     <!-- Dessert Item-->
-                    <div>
+                    <div class="card grid-rows--2 glass">
                         <!-- Dessert item img container to make fixed on the top -->
                         <div>
                             <img src="images/dessert_food.jpg" alt="Ice Cream Image" height="115" width="215">
@@ -403,25 +404,25 @@
             <!--End Food Section-->
 
             <!--Line break-->
-           
+
 
 
             <!--Accommodations Section-->
-            <section id="services-accommodations" class="section glass">
+            <section id="services-accommodations" class="section glass ">
                 <!--Title for accommodations-->
-                <h1>
+                <h1 class="text-center mb-4">
                     Accommodations
                 </h1>
 
                 <!-- Cabins Item Image to the Left-->
-                <div>
+                <div class="grid-cols--2 mb-4">
                     <!-- Cabins item img container to take the Left half of the container -->
                     <div>
-                        <img src="images/cabins_accommodations.jpeg" alt="Cabin Image" height="264" width="460">
+                        <img src="images/cabins_accommodations.jpeg" alt="Cabin Image" height="264" width="100%">
                     </div>
 
                     <!-- Cabins item text container to take Right side -->
-                    <div>
+                    <div class="grid-rows--3">
                         <h2>Cabins</h2>
 
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
@@ -429,7 +430,7 @@
                         </p>
 
 
-                        <a href="#" > Bye Now</a>
+                        <a class="btn btn-outlined btn-service" href="#"> Bye Now</a>
 
                     </div>
 
@@ -437,14 +438,14 @@
                 <!-- End Cabins Item image to the  Left-->
 
                 <!-- Luxury Item Image to the Left-->
-                <div>
+                <div class="grid-cols--2">
                     <!-- Luxury item img container to take the Left half of the container -->
                     <div>
-                        <img src="images/luxury_accommodations.png" alt="Luxury room Image" height="264" width="460">
+                        <img src="images/luxury_accommodations.png" alt="Luxury room Image" height="264" width="100%">
                     </div>
 
                     <!-- Luxury item text container to take Right side -->
-                    <div>
+                    <div class="grid-rows--3">
                         <h2>Luxury</h2>
 
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil natus perspiciatis
@@ -452,7 +453,7 @@
                         </p>
 
 
-                        <a href="#">Buy Now</a>
+                        <a href="#" class="btn btn-outlined btn-service">Buy Now</a>
 
                     </div>
 
@@ -460,8 +461,8 @@
                 <!-- End Luxury Item image to the  Left-->
 
 
-            </div>
-            <!--End Accommodations Section-->
+        </div>
+        <!--End Accommodations Section-->
 
         </div>
         <!-- End Container div -->

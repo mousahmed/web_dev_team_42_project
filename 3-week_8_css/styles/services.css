@@ -1,16 +1,46 @@
 @import url("index.css");
 .section-attractions {
 	display: grid;
-	grid-template-rows: 1fr 2fr 2fr;
+	grid-template-rows: 1fr 3fr 3fr;
+	grid-template-columns: 1fr;
+	grid-row-gap: 4rem;
+	text-align: center;
+}
+
+.section-food {
+	display: grid;
+	grid-template-rows: 1fr 2fr;
 	grid-template-columns: 1fr;
 	grid-row-gap: 1rem;
 	text-align: center;
 }
 
-.section-food{
-    display: grid;
-	grid-template-rows: 1fr 2fr;
-	grid-template-columns: 1fr;
-	grid-row-gap: 1rem;
-	text-align: center;
+.btn-tickets {
+	width: 20rem;
+	height: 3rem;
+}
+
+.tickets-input {
+	width: 100%;
+	height: 3rem;
+	border-radius: var(--border-radius);
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 1rem;
+}
+
+.tickets-label {
+	text-align: left;
+	float: left;
+	padding-left: 1rem;
+	font-size: 1.25rem;
+	font-weight: 700;
+	width: 100%;
+}
+
+
+.list-regulations{
+	display: grid;
+	justify-content: center;
+	row-gap: .5rem;
 }
