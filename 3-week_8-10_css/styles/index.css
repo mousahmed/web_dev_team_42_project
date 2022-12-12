@@ -9,11 +9,13 @@
 	--accent: #d1aa28;
 	--border-radius: 15px;
 }
+
 /* Css reset & defaults */
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+
 	font-family: "Inter", sans-serif;
 	border-color: var(--primary-dark);
 }
@@ -52,7 +54,6 @@ button {
 
 /* Glass effect for the background */
 .glass {
-	/* From https://css.glass */
 	background: rgba(255, 255, 255, 0.28);
 	border-radius: 50px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -66,7 +67,6 @@ button {
 .card {
 	min-height: 20rem; /*  16px * 20  = 320px*/
 	text-align: center;
-	padding: 0 1rem;
 }
 
 .card-rows {
@@ -169,9 +169,7 @@ nav {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 1fr;
-	grid-column-gap: 1.5rem;
-
-	justify-content: center;
+	grid-column-gap: 1.5rem; /*24px */
 }
 
 /* Divide layout to 2 columns */
@@ -196,7 +194,6 @@ nav {
 
 /* Divide layout to 3 rows */
 
-
 .grid-rows--3 {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -211,12 +208,20 @@ nav {
 	grid-row-gap: 1rem;
 }
 
-
 .section-map {
 	text-align: center;
 }
 
 /* Margins */
+/* 
+mb margin bottom
+mt margin top
+ml margin left
+mr margin right
+m margin
+mx margin left and right
+my margin top and bottom
+ */
 .mb-1 {
 	margin-bottom: 1rem; /*16px */
 }
@@ -237,7 +242,7 @@ nav {
 
 /* Paddings */
 .p-2 {
-	padding: 1.5rem;
+	padding: 1.5rem; /*24px */
 }
 .pt-2 {
 	padding-top: 1.5rem; /*24px */
