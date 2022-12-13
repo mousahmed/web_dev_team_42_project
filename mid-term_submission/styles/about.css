@@ -1,0 +1,17 @@
+@import url("index.css");
+@import url("animations.css");
+
+/* reviews section layout */
+.section-reviews {
+	display: grid;
+	grid-template-rows: 1fr 2fr 2fr;
+	grid-template-columns: 1fr;
+	grid-row-gap: 1rem;
+	text-align: center;
+}
+
+/* Table layout and sizing */
+table {
+	text-align: left;
+	width: 25rem;
+}
